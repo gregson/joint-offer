@@ -1,0 +1,123 @@
+{
+  "providers": {
+    "proximus": {
+      "format": "json",
+      "rootPath": null,
+      "idMapping": {
+        "fields": ["brand", "model", "storage"],
+        "separator": "-",
+        "normalize": true,
+        "transformers": {
+          "brand": "toLowerCase",
+          "model": ["extractBaseModel", "toLowerCase"],
+          "storage": ["extractNumericStorage"]
+        }
+      },
+      "fieldMappings": {
+        "brand": "brand",
+        "model": {
+          "field": "title",
+          "transform": "extractBaseModel"
+        },
+        "storage": {
+          "field": "capacity",
+          "transform": "storage"
+        },
+        "price": "price_sd",
+        "image": "image_link",
+        "upfrontPrices": {
+          "proximus": {
+            "price": { "field": "price_jo" },
+            "conditions": { "field": "info_dp" },
+            "url": { "field": "link" }
+          }
+        }
+      }
+    },
+    "voo": {
+      "format": "json",
+      "rootPath": "smartphones",
+      "idMapping": {
+        "fields": ["brandName", "name", "storage"],
+        "separator": "-",
+        "normalize": true,
+        "transformers": {
+          "brandName": "toLowerCase",
+          "name": ["extractBaseModel", "toLowerCase"],
+          "storage": ["extractNumericStorage"]
+        },
+        "postTransform": "removeGoSuffix"
+      },
+      "fieldMappings": {
+        "brand": {
+          "field": "brandName",
+          "transform": "brand"
+        },
+        "model": {
+          "field": "name",
+          "transform": "model"
+        },
+        "storage": {
+          "field": "storage",
+          "transform": ["extractNumericStorage", "storage"]
+        },
+        "price": "basePrice",
+        "image": "imageLarge",
+        "upfrontPrices": {
+          "voo": {
+            "price": { 
+              "field": "basePrice",
+              "transform": "price"
+            },
+            "conditions": { 
+              "field": "dataOption",
+              "suffix": " data"
+            },
+            "url": { 
+              "field": "baseProductCode",
+              "transform": "generateVooUrl"
+            }
+          }
+        }
+      }
+    },
+    "orange": {
+      "format": "json",
+      "rootPath": "results[0].hits",
+      "idMapping": {
+        "fields": ["brand", "model", "storage"],
+        "separator": "-",
+        "normalize": true,
+        "transformers": {
+          "brand": "toLowerCase",
+          "model": ["extractBaseModel", "toLowerCase"],
+          "storage": ["extractNumericStorage"]
+        }
+      },
+      "fieldMappings": {
+        "brand": {
+          "field": "brand",
+          "transform": "brand"
+        },
+        "model": {
+          "field": "description",
+          "transform": "model"
+        },
+        "storage": {
+          "field": "hardDisk",
+          "transform": "storage"
+        },
+        "price": "priceOneTime",
+        "image": "image",
+        "colors": "color",
+        "upfrontPrices": {
+          "orange": {
+            "price": { "field": "priceOneTime" },
+            "conditions": { "field": "priceRecurringDuration", "suffix": " months" },
+            "url": { "field": "href" }
+          }
+        }
+      }
+    }
+  }
+}

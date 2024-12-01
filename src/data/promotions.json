@@ -1,0 +1,46 @@
+{
+  "promotions": [
+    {
+      "id": "promo-iphone15-orange",
+      "title": "iPhone 15 Pro",
+      "description": "Avec forfait 150Go 5G",
+      "price": 49.99,
+      "imageUrl": "/images/iphone15pro.jpg",
+      "tag": "Nouveau",
+      "details": {
+        "duration": "24 mois",
+        "initialPrice": 199,
+        "monthlyPrice": 49.99,
+        "plan": "orange-5g-150",
+        "smartphone": "iphone15-pro-256"
+      },
+      "conditions": [
+        "Engagement 24 mois",
+        "Dans la limite des stocks disponibles",
+        "Nouveaux clients uniquement"
+      ],
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": "promo-s23-sfr",
+      "title": "Samsung Galaxy S23",
+      "description": "Avec forfait 200Go 5G",
+      "price": 45.99,
+      "imageUrl": "/images/galaxys23.jpg",
+      "tag": "Promo",
+      "details": {
+        "duration": "24 mois",
+        "initialPrice": 149,
+        "monthlyPrice": 45.99,
+        "plan": "sfr-power-200",
+        "smartphone": "s23-ultra-256"
+      },
+      "conditions": [
+        "Engagement 24 mois",
+        "Dans la limite des stocks disponibles",
+        "Reprise de votre ancien téléphone"
+      ],
+      "endDate": "2024-12-31"
+    }
+  ]
+}

@@ -1,0 +1,1546 @@
+[
+  {
+    "id": "samsung-galaxy-z-fold6-512",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-z-fold6-512gb-silver/detail/px-samsung-z-fold6-512gb-silver-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 799,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-z-fold6-512gb-silver"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra-512",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s24-ultra-512gb-violet/detail/px-samsung-s24-ultra-512gb-violet-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 549,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-ultra-512gb-titanium-violet"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-fold6-256",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold6",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-z-fold6-256gb-navy/detail/px-samsung-z-fold6-256gb-navy-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 999,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-z-fold6-256gb-navy"
+      },
+      "orange": {
+        "price": 1059,
+        "condition": "Avec Option Data à 35€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/samsung-galaxy-z-fold6?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s23-256",
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-s23-256gb-green/detail/px-samsung-galaxy-s23-256gb-green-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s23-256gb-green"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-512",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-512gb-yellow/detail/px-iphone-15-512gb-yellow-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 399,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-512gb-yellow"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-128",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-128gb-black/detail/px-iphone-15-128gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 29,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-128gb-black"
+      },
+      "voo": {
+        "price": 239,
+        "condition": "Avec 9 Gb pour 24€/mois",
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/apple_iphone_15_128gb/p/7377"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-14t-pro-512",
+    "brand": "Xiaomi",
+    "model": "14T Pro",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-14t-pro-512gb-titan-black/detail/px-xiaomi-14t-pro-512gb-titan-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-14t-pro-512gb-titan-black"
+      },
+      "orange": {
+        "price": 9,
+        "condition": "Avec Option Data à 35€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/xiaomi-14t-pro?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-fold-256",
+    "brand": "Google",
+    "model": "Pixel 9 Pro Fold",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-fold-256gb-po/detail/px-google-pixel-9-pro-fold-256gb-po-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 699,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-fold-256gb-porcelain"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-14t-256",
+    "brand": "Xiaomi",
+    "model": "14T",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-14t-256gb-titan-black/detail/px-xiaomi-14t-256gb-titan-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-14t-256gb-titan-black"
+      },
+      "orange": {
+        "price": 99,
+        "condition": "Avec Option Data à 15€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/xiaomi-14t?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "oneplus-nord-ce4-lite-5g-256",
+    "brand": "OnePlus",
+    "model": "Nord CE4 Lite 5G",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-nord-ce4-lite-256gb-silv/detail/px-oneplus-nord-ce4-lite-256gb-silv-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-nord-ce4-lite-256gb-silver"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-256",
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s24-256gb-amber-yellow/detail/px-samsung-s24-256gb-amber-yellow-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-256gb-yellow"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-13-128",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-note-13-4g-128gb-black/detail/px-xiaomi-note-13-4g-128gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 500 MB : €5/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-note-13-128gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-256",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-256gb-black-titan/detail/px-iphone-16-pro-256gb-black-titan-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 519,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-256gb-black-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-plus-128",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-plus-128gb-blue/detail/px-iphone-15-plus-128gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 119,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-plus-128gb-blue"
+      },
+      "orange": {
+        "price": 329,
+        "condition": "Avec Option Data à 25€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/apple-iphone-15-plus?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl-256",
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-xl-256gb-prcl/detail/px-google-pixel-9-pro-xl-256gb-prcl-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 399,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-xl-256gb-porcelain"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s23-fe-128",
+    "brand": "Samsung",
+    "model": "Galaxy S23 FE",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s23-fe-128gb-cream/detail/px-samsung-s23-fe-128gb-cream-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s23-fe-128gb-cream"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-7a-128",
+    "brand": "Google",
+    "model": "Pixel 7a",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-7a-128gb-snow/detail/px-google-pixel-7a-128gb-snow-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-7a-128gb-snow-white"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-plus-512",
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-plus-512gb-black/detail/px-iphone-16-plus-512gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 649,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-plus-512gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-14-128",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-14-128gb-blue/detail/px-iphone-14-128gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 149,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-14-128gb-blue"
+      },
+      "voo": {
+        "price": 79,
+        "condition": "Avec 9 Gb pour 24€/mois",
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/apple_iphone_14_128gb/p/7383"
+      },
+      "orange": {
+        "price": 79,
+        "condition": "Avec Option Data à 25€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/apple-iphone-14?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a15-128",
+    "brand": "Samsung",
+    "model": "Galaxy A15",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-a15-4g-128gb-blue/detail/px-samsung-a15-4g-128gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 19,
+        "condition": "Avec DataPhone 500 MB : €5/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a15-128gb-blue"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-128",
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s24-128gb-amber-yellow/detail/px-samsung-s24-128gb-amber-yellow-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-128gb-yellow"
+      },
+      "voo": {
+        "price": 9,
+        "condition": "Avec 20 Gb pour 38€/mois",
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/samsung_galaxy_s24_128gb/p/7374"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a25-128",
+    "brand": "Samsung",
+    "model": "Galaxy A25",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-a25-128gb-black/detail/px-samsung-galaxy-a25-128gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a25-128gb-black"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl-128",
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-xl-128gb-hazl/detail/px-google-pixel-9-pro-xl-128gb-hazl-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 299,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-xl-128gb-hazel"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-max-1024",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "storage": 1024,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-max-1tb-black/detail/px-iphone-15-pro-max-1tb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 1029,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-max-1tb-black-titanium"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-fe-128",
+    "brand": "Samsung",
+    "model": "Galaxy S24 FE",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-s24-fe-128gb-grap/detail/px-samsung-galaxy-s24-fe-128gb-grap-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-fe-128gb-graphite"
+      },
+      "orange": {
+        "price": 9,
+        "condition": "Avec Option Data à 25€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/samsung-galaxy-s24-fe?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-128",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-128gb-obsidian/detail/px-google-pixel-9-128gb-obsidian-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-128gb-obsidian"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-14-512",
+    "brand": "Xiaomi",
+    "model": "14",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-14-512gb-black/detail/px-xiaomi-14-512gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-14-512gb-black"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-512",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-512gb-hazel/detail/px-google-pixel-9-pro-512gb-hazel-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 249,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-512gb-hazel"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip5-256",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip5",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-gal-z-flip5-256gb-lavend/detail/px-samsung-gal-z-flip5-256gb-lavend-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-z-flip-5-256gb-lavender"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl-512",
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-xl-512gb-hazl/detail/px-google-pixel-9-pro-xl-512gb-hazl-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 549,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-xl-512gb-hazel"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8-pro-128",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8-pro-128gb-bay/detail/px-google-pixel-8-pro-128gb-bay-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8-pro-128gb-bay-blue"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-max-256",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-max-256gb-natural/detail/px-iphone-16-pro-max-256gb-natural-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 639,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-max-256gb-natural-titanium"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s23-128",
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-s23-128gb-cream/detail/px-samsung-galaxy-s23-128gb-cream-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s23-128gb-cream"
+      }
+    }
+  },
+  {
+    "id": "oneplus-11-256",
+    "brand": "OnePlus",
+    "model": "11",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-11-5g-256gb-green/detail/px-oneplus-11-5g-256gb-green-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 149,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-11-5g-256gb-green"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s23-plus-256",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Plus",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-s23-plus--256gb-black/detail/px-samsung-galaxy-s23-plus--256gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s23-plus-256gb-phantom-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-max-512",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-max-512gb-desert/detail/px-iphone-16-pro-max-512gb-desert-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 889,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-max-512gb-desert-titanium"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-plus-256",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Plus",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s24-plus--256gb-marble-grey/detail/px-samsung-s24-plus--256gb-marble-grey-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-plus-256gb-grey"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-se-5g-128",
+    "brand": "Apple",
+    "model": "iPhone SE 5G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-se-3-128gb-midnight/detail/px-apple-iphone-se-3-128gb-midnight-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iPhone-se-3-128gb-midnight"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-256",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-256gb-teal/detail/px-iphone-16-256gb-teal-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 249,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-256gb-teal"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-128",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-128gb-black-titan/detail/px-iphone-16-pro-128gb-black-titan-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 389,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-128gb-black-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-256",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-256gb-black/detail/px-iphone-15-256gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 149,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-256gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-max-512",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-max-512gb-nat-tit/detail/px-iphone-15-pro-max-512gb-nat-tit-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 779,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-max-512gb-natural-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-512",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-512gb-white-titan/detail/px-iphone-16-pro-512gb-white-titan-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 769,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-512gb-white-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-128",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-128gb-natural-tit/detail/px-iphone-15-pro-128gb-natural-tit-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 279,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-128gb-natural-titanium"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a54-5g-128",
+    "brand": "Samsung",
+    "model": "Galaxy A54 5G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-a54-5g-128gb-graphite/detail/px-samsung-a54-5g-128gb-graphite-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a54-5g-128gb-graphite"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a35-128",
+    "brand": "Samsung",
+    "model": "Galaxy A35",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-a35-5g-128gb-navy/detail/px-samsung-a35-5g-128gb-navy-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a35-128gb-navy"
+      },
+      "voo": {
+        "price": 1,
+        "condition": "Avec 3 Gb pour 16€/mois",
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/samsung_galaxy_a35_128gb/p/7355"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a55-galaxy-watch-4-256",
+    "brand": "Samsung",
+    "model": "Galaxy A55 + Galaxy Watch 4",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/s/sam-f-sm-a556bzpro-a55-256gb-gw4-40/detail/sam-f-sm-a556bzpro-a55-256gb-gw4-40-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a55-256gb-plus-galaxy-watch-4"
+      }
+    }
+  },
+  {
+    "id": "fairphone-4-5g-128",
+    "brand": "Fairphone",
+    "model": "4 5G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-fairphone-4-5g-128gb-grey-plus-sim/detail/px-fairphone-4-5g-128gb-grey-plus-sim-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_fairphone-4-5g-128gb-grey"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-12-buds-4-lite-smartband-7-128",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12 & Buds 4 Lite & Smartband 7",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-note-12-gray-plus-bds4lite-plus-sb7/detail/px-xiaomi-note-12-gray-plus-bds4lite-plus-sb7-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-note-12-128gb-black-plus-buds4-lite-plus-smartband7"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-13t-256",
+    "brand": "Xiaomi",
+    "model": "13T",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-13t-256gb-black/detail/px-xiaomi-13t-256gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-13t-256gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-12-refurbished-64",
+    "brand": "Apple",
+    "model": "iPhone 12 Refurbished",
+    "storage": 64,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/r/refurb-apple-iphone-12-64gb-black/detail/refurb-apple-iphone-12-64gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_refurbish-apple-iphone-12-64gb-black"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8-128",
+    "brand": "Google",
+    "model": "Pixel 8",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8-128gb-obsidian/detail/px-google-pixel-8-128gb-obsidian-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8-128gb-obsidian-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-512",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-512gb-ultramarine/detail/px-iphone-16-512gb-ultramarine-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 499,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-512gb-ultramarine"
+      },
+      "orange": {
+        "price": 449,
+        "condition": "Avec Option Data à 35€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/apple-iphone-16?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8-pro-256",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8-pro-256gb-porcela/detail/px-google-pixel-8-pro-256gb-porcela-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8-pro-256gb-porcelain-white"
+      }
+    }
+  },
+  {
+    "id": "oneplus-nord-4-512",
+    "brand": "OnePlus",
+    "model": "Nord 4",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-nord-4-512gb-silver/detail/px-oneplus-nord-4-512gb-silver-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-nord-4-512gb-mercurial-silver"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-1024",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "storage": 1024,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-1tb-desert-titan/detail/px-iphone-16-pro-1tb-desert-titan-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 1019,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-1tb-desert-titanium"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a55-256",
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-a55-5g-256gb-iceblue/detail/px-samsung-a55-5g-256gb-iceblue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a55-256gb-Iceblue"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip6-512",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-z-flip6-512gb-blue/detail/px-samsung-z-flip6-512gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 199,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-z-flip6-512gb-blue"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-13-pro-5g-512",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro+ 5G",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-note-13-pro-plus--512gb-black/detail/px-xiaomi-note-13-pro-plus--512gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-note-13-pro-plus-512gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-se-5g-64",
+    "brand": "Apple",
+    "model": "iPhone SE 5G",
+    "storage": 64,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-se-3-64gb-red/detail/px-apple-iphone-se-3-64gb-red-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iPhone-se-3-64gb-red"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-11-refurbished-64",
+    "brand": "Apple",
+    "model": "iPhone 11 Refurbished",
+    "storage": 64,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/r/refurb-apple-iphone-11-64gb-black/detail/refurb-apple-iphone-11-64gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_refurbish-apple-iphone-11-64gb-black"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a55-128",
+    "brand": "Samsung",
+    "model": "Galaxy A55",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-a55-5g-128gb-lemon/detail/px-samsung-a55-5g-128gb-lemon-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a55-128gb-lemon"
+      },
+      "voo": {
+        "price": 299,
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/samsung_galaxy_a55_128gb/p/7376"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-14-256",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-14-256gb-blue/detail/px-iphone-14-256gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 279,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-14-256gb-blue"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8a-128",
+    "brand": "Google",
+    "model": "Pixel 8a",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8a-128gb-bay/detail/px-google-pixel-8a-128gb-bay-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8a-128gb-bay"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-fold-512",
+    "brand": "Google",
+    "model": "Pixel 9 Pro Fold",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-fold-512gb-po/detail/px-google-pixel-9-pro-fold-512gb-po-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 799,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-fold-512gb-porcelain"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-256",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-256gb-wintergreen/detail/px-google-pixel-9-256gb-wintergreen-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-256gb-wintergreen"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8-256",
+    "brand": "Google",
+    "model": "Pixel 8",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8-256gb-obsidian/detail/px-google-pixel-8-256gb-obsidian-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8-256gb-obsidian-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-plus-256",
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-plus-256gb-white/detail/px-iphone-16-plus-256gb-white-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 399,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-plus-256gb-white"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-plus-128",
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-plus-128gb-ultramarine/detail/px-iphone-16-plus-128gb-ultramarine-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 279,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-plus-128gb-ultramarine"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-12-4g-128",
+    "brand": "Xiaomi",
+    "model": "Redmi 12 4G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-redmi-12-4g-128gb-blue/detail/px-xiaomi-redmi-12-4g-128gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 500 MB : €5/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-12-4g-128gb-sky-blue"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-11-128",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-11-2020-128gb-black/detail/px-apple-iphone-11-2020-128gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-11-128gb-black"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-128",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-128gb-obsidia/detail/px-google-pixel-9-pro-128gb-obsidia-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-128gb-obsidian"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-12-64",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "storage": 64,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-12-64gb-white/detail/px-apple-iphone-12-64gb-white-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-12-64gb-white"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-14-512",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-14-512gb-midnight/detail/px-iphone-14-512gb-midnight-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 289,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-14-512gb-midnight"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-256",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-9-pro-256gb-hazel/detail/px-google-pixel-9-pro-256gb-hazel-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 199,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-9-pro-256gb-hazel"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra-256",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-s24-ultra-256gb-violet/detail/px-samsung-s24-ultra-256gb-violet-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 249,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-ultra-256gb-titanium-violet"
+      },
+      "voo": {
+        "price": 459,
+        "condition": "Avec 20 Gb pour 38€/mois",
+        "url": "https://hardware.mobile.voo.be/fr/handset/Smartphone/smartphone-medium-plus/samsung_galaxy_s24_ultra_256gb/p/7300"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-max-256",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-max-256gb-blue/detail/px-iphone-15-pro-max-256gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 499,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-max-256gb-blue-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-128",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-128gb-white/detail/px-iphone-16-128gb-white-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-128gb-white"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-13-256",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-13-256gb-midnight/detail/px-apple-iphone-13-256gb-midnight-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 179,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-13-256gb-midnight"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a55-fit3-128",
+    "brand": "Samsung",
+    "model": "Galaxy A55 + Fit3",
+    "storage": 128,
+    "imageUrl": [],
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-a55-128gb-plus-fit3"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-16-pro-max-1024",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "storage": 1024,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-16-pro-max-1tb-white-tit/detail/px-iphone-16-pro-max-1tb-white-tit-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 1139,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-16-pro-max-1tb-white-titanium"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-256",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-256gb-blue/detail/px-iphone-15-pro-256gb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 399,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-256gb-blue-titanium"
+      }
+    }
+  },
+  {
+    "id": "oppo-reno8-lite-5g-128",
+    "brand": "OPPO",
+    "model": "Reno8 Lite 5G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oppo-reno8-lite-rainbow-plus-sim/detail/px-oppo-reno8-lite-rainbow-plus-sim-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oppo-reno-8-lite-rainbow-spectrum"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-14-plus-128",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-14-plus-128gb-midnight/detail/px-iphone-14-plus-128gb-midnight-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-14-plus-128gb-midnight"
+      }
+    }
+  },
+  {
+    "id": "oneplus-nord-4-256",
+    "brand": "OnePlus",
+    "model": "Nord 4",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-nord-4-256gb-oasis-green/detail/px-oneplus-nord-4-256gb-oasis-green-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-nord-4-256gb-oasis-green"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-13-128",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-13-128gb-starlight/detail/px-apple-iphone-13-128gb-starlight-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-13-128gb-starlight"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-15-pro-1024",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "storage": 1024,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-15-pro-1tb-blue/detail/px-iphone-15-pro-1tb-blue-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 899,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-15-pro-1tb-blue-titanium"
+      }
+    }
+  },
+  {
+    "id": "oneplus-12-512",
+    "brand": "OnePlus",
+    "model": "12",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-12-5g-512gb-silky-black/detail/px-oneplus-12-5g-512gb-silky-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-12-5g-512gb-silky-black"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-8-pro-512",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-google-pixel-8-pro-512gb-bay/detail/px-google-pixel-8-pro-512gb-bay-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_google-pixel-8-pro-512gb-bay-blue"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-14-pro-max-1024",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "storage": 1024,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-iphone-14-pro-max-1tb-silver/detail/px-iphone-14-pro-max-1tb-silver-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 959,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-14-pro-max-1tb-silver"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-13-refurbished-128",
+    "brand": "Apple",
+    "model": "iPhone 13 Refurbished",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/r/refurb-apple-iphone-13-128gb-midn-dot/detail/refurb-apple-iphone-13-128gb-midn-dot-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_refurbish-apple-iphone-13-128gb-midnight"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s23-plus-512",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Plus",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-galaxy-s23-plus--512gb-cream/detail/px-samsung-galaxy-s23-plus--512gb-cream-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s23-plus-512gb-cream"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-13t-pro-512",
+    "brand": "Xiaomi",
+    "model": "13T Pro",
+    "storage": 512,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-13t-pro-512gb-black/detail/px-xiaomi-13t-pro-512gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-13t-pro-512gb-black"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-12-pro-5g-watch-2-lite-128",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12 Pro 5G & Watch 2 Lite",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-note-12-pro-blue--plus--w2lite/detail/px-xiaomi-note-12-pro-blue--plus--w2lite-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 1,5 GB : €15/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-note-12-pro-blue-plus-watch2-lite"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-z-flip6-256",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip6",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-samsung-z-flip6-256gb-mint/detail/px-samsung-z-flip6-256gb-mint-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-z-flip6-256gb-mint"
+      },
+      "orange": {
+        "price": 99,
+        "condition": "Avec Option Data à 35€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/samsung-galaxy-z-flip6?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "fairphone-5-5g-128",
+    "brand": "Fairphone",
+    "model": "5 5G",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-fairphone-5-5g-128gb-matte-black/detail/px-fairphone-5-5g-128gb-matte-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_fairphone-5-5g-128gb-matte-black"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-13-pro-5g-256",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro 5G",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-xiaomi-note-13-pro-256gb-ocean/detail/px-xiaomi-note-13-pro-256gb-ocean-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_xiaomi-redmi-note-13-pro-256gb-ocean-teal"
+      },
+      "orange": {
+        "price": 9,
+        "condition": "Avec Option Data à 10€/mois",
+        "url": "https://eshop.orange.be/fr/appareils/smartphones-gsm/xiaomi-redmi-note-13-pro-5g?___store=default_fr"
+      }
+    }
+  },
+  {
+    "id": "fairphone-5-5g-256",
+    "brand": "Fairphone",
+    "model": "5 5G",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-fairphone-5-5g-256gb-matte-black/detail/px-fairphone-5-5g-256gb-matte-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_fairphone-5-5g-256gb-matte-black"
+      }
+    }
+  },
+  {
+    "id": "oneplus-11-128",
+    "brand": "OnePlus",
+    "model": "11",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-11-5g-128gb-titan-black/detail/px-oneplus-11-5g-128gb-titan-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-11-5g-128gb-titan-black"
+      }
+    }
+  },
+  {
+    "id": "oppo-a57s-128",
+    "brand": "OPPO",
+    "model": "A57s",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oppo-a57s-starry-black/detail/px-oppo-a57s-starry-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 500 MB : €5/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oppo-a57s-starry-black"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s24-galaxy-tab-s6-lite-128",
+    "brand": "Samsung",
+    "model": "Galaxy S24 + Galaxy Tab S6 Lite",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/s/sam-f-sm-s921bzpro-s24bl-plus-tab-s6lite/detail/sam-f-sm-s921bzpro-s24bl-plus-tab-s6lite-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 99,
+        "condition": "Avec DataPhone 3,5 GB : €35/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-s24-128gb-plus-tab-s6-lite"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-11-64",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "storage": 64,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-11-2020-64gb-black/detail/px-apple-iphone-11-2020-64gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-11-64gb-black"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-12-128",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-apple-iphone-12-128gb-black/detail/px-apple-iphone-12-128gb-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 9,
+        "condition": "Avec DataPhone 2,5 GB : €25/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_apple-iphone-12-128gb-black"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-xcover7-128",
+    "brand": "Samsung",
+    "model": "Galaxy XCover7",
+    "storage": 128,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/s/samsung-galaxy-xcover7-black/detail/samsung-galaxy-xcover7-black-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 19,
+        "condition": "Avec DataPhone 1 GB : €10/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_samsung-galaxy-xcover7-black"
+      }
+    }
+  },
+  {
+    "id": "oneplus-12r-256",
+    "brand": "OnePlus",
+    "model": "12R",
+    "storage": 256,
+    "imageUrl": "https://www.proximus.be/dam/cdn/sites/iportal/images/products/device/p/px-oneplus-12r-256gb-iron-gray/detail/px-oneplus-12r-256gb-iron-gray-XS-1.png",
+    "upfrontPrices": {
+      "proximus": {
+        "price": 49,
+        "condition": "Avec DataPhone 2 GB : €20/mois.",
+        "url": "https://www.proximus.be/fr/id_cr_oneplus-12r-256gb-iron-gray"
+      }
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "reviews": {
+    "orange-5g-150": [
+      {
+        "id": "1",
+        "author": "Jean D.",
+        "rating": 5,
+        "date": "15/11/2023",
+        "comment": "Excellent forfait, la 5G fonctionne parfaitement dans ma région.",
+        "pros": [
+          "Débit stable",
+          "Prix compétitif",
+          "Service client réactif"
+        ],
+        "cons": [
+          "Couverture 5G limitée dans certaines zones"
+        ],
+        "verified": true
+      },
+      {
+        "id": "2",
+        "author": "Marie L.",
+        "rating": 4,
+        "date": "10/11/2023",
+        "comment": "Très satisfaite du rapport qualité/prix.",
+        "pros": [
+          "Bon prix",
+          "Data généreuse"
+        ],
+        "cons": [
+          "Application mobile perfectible"
+        ],
+        "verified": true
+      }
+    ],
+    "sfr-power-200": [
+      {
+        "id": "3",
+        "author": "Pierre M.",
+        "rating": 4,
+        "date": "20/11/2023",
+        "comment": "Bon forfait, réseau stable mais application à améliorer.",
+        "pros": [
+          "Bonne couverture réseau",
+          "Data abondante",
+          "Multi-SIM pratique"
+        ],
+        "cons": [
+          "Application SFR peu intuitive",
+          "Support client parfois long"
+        ],
+        "verified": true
+      }
+    ]
+  }
+}

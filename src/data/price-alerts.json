@@ -1,0 +1,59 @@
+{
+  "alerts": [
+    {
+      "id": "f7991be7-825c-448b-b9e8-df5d03efe2ef",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "samsung-galaxy-z-fold6-512",
+      "provider": "proximus",
+      "createdAt": "2024-12-01T15:36:37.625Z",
+      "preferences": {
+        "notifyOnAnyChange": false,
+        "notifyOnPriceDecrease": true
+      }
+    },
+    {
+      "id": "test-alert-1",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "samsung-galaxy-s24-ultra-512",
+      "provider": "proximus",
+      "preferences": {
+        "notifyOnPriceDecrease": true,
+        "notifyOnAnyChange": false
+      },
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "test-alert-2",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "iphone-15-pro-max-512",
+      "provider": "orange",
+      "preferences": {
+        "notifyOnPriceDecrease": false,
+        "notifyOnAnyChange": true
+      },
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "64b4c7b6-9596-45d7-bed5-d1c7e0b1c730",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "samsung-galaxy-s23-256",
+      "provider": "proximus",
+      "createdAt": "2024-12-01T16:01:49.359Z",
+      "preferences": {
+        "notifyOnAnyChange": false,
+        "notifyOnPriceDecrease": true
+      }
+    },
+    {
+      "id": "40d9e8a5-b7fc-4123-90e0-77dcb4f53673",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "apple-iphone-15-512",
+      "provider": "proximus",
+      "createdAt": "2024-12-01T16:48:32.753Z",
+      "preferences": {
+        "notifyOnAnyChange": false,
+        "notifyOnPriceDecrease": true
+      }
+    }
+  ]
+}

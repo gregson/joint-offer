@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tests des filtres</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
+        .test-title { font-weight: bold; margin-bottom: 10px; }
+        .result { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Tests des filtres de forfaits</h1>
+    <div id="results"></div>
+
+    <script type="module">
+        import { filterPlans } from '../utils/dataLoader.ts';
+
+        const resultsDiv = document.getElementById('results');
+
+        function addTestResult(title, plans) {
+            const section = document.createElement('div');
+            section.className = 'test-section';
+            
+            const titleDiv = document.createElement('div');
+            titleDiv.className = 'test-title';
+            titleDiv.textContent = title;
+            
+            const resultDiv = document.createElement('div');
+            resultDiv.className = 'result';
+            resultDiv.textContent = `Nombre de forfaits trouvés: ${plans.length}`;
+            
+            const detailsDiv = document.createElement('div');
+            detailsDiv.className = 'result';
+            plans.forEach(plan => {
+                const planDiv = document.createElement('div');
+                planDiv.textContent = `- ${plan.name} (${plan.price}€, ${plan.data}, ${plan.networkType.join(', ')})`;
+                detailsDiv.appendChild(planDiv);
+            });
+            
+            section.appendChild(titleDiv);
+            section.appendChild(resultDiv);
+            section.appendChild(detailsDiv);
+            resultsDiv.appendChild(section);
+        }
+
+        // Test du filtre de prix
+        const priceFilteredPlans = filterPlans({ priceRange: [20, 30] });
+        addTestResult('1. Test du filtre de prix (20-30€)', priceFilteredPlans);
+
+        // Test du filtre de data
+        const dataFilteredPlans = filterPlans({ data: 100 });
+        addTestResult('2. Test du filtre de data (>= 100Go)', dataFilteredPlans);
+
+        // Test des forfaits illimités
+        const unlimitedDataPlans = filterPlans({ data: -1 });
+        addTestResult('3. Test du filtre des forfaits data illimités', unlimitedDataPlans);
+
+        // Test du filtre réseau 5G
+        const network5GPlans = filterPlans({ network: '5G' });
+        addTestResult('4. Test du filtre réseau 5G', network5GPlans);
+
+        // Test combiné
+        const combinedFilterPlans = filterPlans({
+            priceRange: [20, 40],
+            data: 100,
+            network: '5G'
+        });
+        addTestResult('5. Test combiné (prix: 20-40€, data >= 100Go, 5G)', combinedFilterPlans);
+    </script>
+</body>
+</html>

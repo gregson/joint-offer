@@ -1,0 +1,280 @@
+{
+  "plans": [
+    {
+      "id": "Proximus-Easy-10",
+      "provider": "Proximus",
+      "name": "Mobile Easy 5G",
+      "price": 19.99,
+      "data": "10 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "5G jusqu'à 200 Mbps",
+        "Une facture sans surprise ",
+        "5G, le réseau mobile du futur",
+        "Daily Roaming Pass ",
+ 
+        "Proximus for You "
+      ],
+      "promotion": {
+        "description": "10 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "10 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.proximus.be/fr/abonnement-gsm"
+    },    
+    {
+      "id": "Proximus-Start-35",
+      "provider": "Proximus",
+      "name": "Mobile Start 5G",
+      "price": 24.99,
+      "data": "35 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "5G jusqu'à 200 Mbps",
+        "Une facture sans surprise ",
+        "5G, le réseau mobile du futur",
+        "Daily Roaming Pass ",
+ 
+        "Proximus for You "
+       
+      ],
+      "promotion": {
+        "description": "35 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "35 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.proximus.be/fr/abonnement-gsm"
+    },
+    {
+      "id": "Proximus-Maxi-70",
+      "provider": "Proximus",
+      "name": "Mobile Maxi 5G",
+      "price": 29.99,
+      "data": "70 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "5G jusqu'à 500 Mbps",
+        "Une facture sans surprise ",
+        "5G, le réseau mobile du futur",
+        "Daily Roaming Pass ",
+
+        "Proximus for You "
+      ],
+      "promotion": {
+        "description": "70 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "70 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.proximus.be/fr/abonnement-gsm"
+    },
+ 
+    {
+      "id": "voo-15",
+      "provider": "voo",
+      "name": "Mobile Voo 15",
+      "price": 18.00,
+      "data": "15 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "Garantie Data en continu"
+       
+      ],
+      "promotion": {
+        "description": "15 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "15 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.voo.be/fr/mobile"
+    },
+    {
+      "id": "voo-50",
+      "provider": "voo",
+      "name": "Mobile voo 50",
+      "price": 23.00,
+      "data": "50 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "Garantie Data en continu"
+      ],
+      "promotion": {
+        "description": "50 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "50 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.voo.be/fr/mobile"
+    },
+    {
+      "id": "voo-300",
+      "provider": "voo",
+      "name": "Mobile voo 300",
+      "price": 39.00,
+      "data": "300 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités ",
+        "Garantie Data en continu"
+      ],
+      "promotion": {
+        "description": "300 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "300 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://www.voo.be/fr/mobile"
+    }, 
+    {
+      "id": "Orange-Medium-50",
+      "provider": "Orange",
+      "name": "Orange Mobile Medium",
+      "price": 21.00,
+      "data": "50 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités",
+        "5G inclus",
+        "Roaming EU inclus"
+      ],
+      "promotion": {
+        "description": "50 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "50 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://eshop.orange.be/fr/mobile/abonnements-gsm"
+    },
+    {
+      "id": "Orange-Large-300",
+      "provider": "Orange",
+      "name": "Orange Mobile Large",
+      "price": 39.00,
+      "data": "300 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G", "5G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "Appels & SMS illimités",
+        "5G inclus",
+        "Roaming EU inclus"
+      ],
+      "promotion": {
+        "description": "300 GB + Appels & SMS illimités",
+        "endDate": "31/12/2025"
+      },
+      "dataEurope": "300 Go",
+      "internationalCalls": "Toutes destinations",
+      "url":"https://eshop.orange.be/fr/mobile/abonnements-gsm"
+    } ,
+    {
+      "id": "Scarlet-Red-1GB",
+      "provider": "Scarlet",
+      "name": "Red",
+      "price": 8.00,
+      "data": "1 Go",
+      "calls": "300 minutes",
+      "sms": "Unlimited",
+      "networkType": ["4G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "1 Go de data mobile",
+        "300 minutes d'appel",
+        "SMS illimités"
+      ],
+      "promotion": null,
+      "dataEurope": "1 Go",
+      "internationalCalls": "Non inclus",
+      "url": "https://www.scarlet.be/fr/abonnement-gsm"
+    },
+    {
+      "id": "Scarlet-Berry-5GB",
+      "provider": "Scarlet",
+      "name": "Berry",
+      "price": 10.00,
+      "data": "5 Go",
+      "calls": "300 minutes",
+      "sms": "Unlimited",
+      "networkType": ["4G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "5 Go de data mobile",
+        "300 minutes d'appel",
+        "SMS illimités"
+      ],
+      "promotion": null,
+      "dataEurope": "5 Go",
+      "internationalCalls": "Non inclus",
+      "url": "https://www.scarlet.be/fr/abonnement-gsm"
+    },
+    {
+      "id": "Scarlet-Cherry-10GB",
+      "provider": "Scarlet",
+      "name": "Cherry",
+      "price": 13.00,
+      "data": "10 Go",
+      "calls": "600 minutes",
+      "sms": "Unlimited",
+      "networkType": ["4G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "10 Go de data mobile",
+        "600 minutes d'appel",
+        "SMS illimités"
+      ],
+      "promotion": null,
+      "dataEurope": "10 Go",
+      "internationalCalls": "Non inclus",
+      "url": "https://www.scarlet.be/fr/abonnement-gsm"
+    },
+    {
+      "id": "Scarlet-Hot-20GB",
+      "provider": "Scarlet",
+      "name": "Hot",
+      "price": 20.00,
+      "data": "20 Go",
+      "calls": "Unlimited",
+      "sms": "Unlimited",
+      "networkType": ["4G"],
+      "commitment": "Sans engagement",
+      "features": [
+        "20 Go de data mobile",
+        "Appels illimités",
+        "SMS illimités"
+      ],
+      "promotion": null,
+      "dataEurope": "20 Go",
+      "internationalCalls": "Non inclus",
+      "url": "https://www.scarlet.be/fr/abonnement-gsm"
+    }
+  ]
+}

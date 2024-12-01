@@ -1,0 +1,924 @@
+[
+  {
+    "smartphoneId": "samsung-galaxy-z-fold6-512",
+    "prices": {
+      "proximus": [
+        {
+          "price": 1999.99,
+          "date": "2024-12-01"
+        },
+        {
+          "price": 799,
+          "date": "2024-12-01"
+        }
+      ],
+      "orange": [
+        {
+          "price": 1899.99,
+          "date": "2024-12-01"
+        }
+      ],
+      "voo": [
+        {
+          "price": 1949.99,
+          "date": "2024-12-01"
+        }
+      ]
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-ultra-512",
+    "prices": {
+      "proximus": [
+        {
+          "price": 1499.99,
+          "date": "2024-01-01"
+        },
+        {
+          "price": 1449.99,
+          "date": "2024-01-15"
+        },
+        {
+          "price": 549,
+          "date": "2024-12-01"
+        }
+      ],
+      "orange": [
+        {
+          "price": 1489.99,
+          "date": "2024-01-01"
+        }
+      ],
+      "voo": [
+        {
+          "price": 1479.99,
+          "date": "2024-01-01"
+        },
+        {
+          "price": 1429.99,
+          "date": "2024-01-15"
+        }
+      ]
+    }
+  },
+  {
+    "smartphoneId": "iphone-15-pro-max-512",
+    "prices": {
+      "proximus": [
+        {
+          "price": 1599.99,
+          "date": "2024-01-01"
+        }
+      ],
+      "orange": [
+        {
+          "price": 1589.99,
+          "date": "2024-01-01"
+        },
+        {
+          "price": 1549.99,
+          "date": "2024-01-15"
+        }
+      ],
+      "voo": [
+        {
+          "price": 1579.99,
+          "date": "2024-01-01"
+        }
+      ]
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-z-fold6-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s23-256",
+    "prices": {
+      "proximus": [
+        {
+          "price": 899.99,
+          "date": "2024-12-01T15:00:00Z"
+        },
+        {
+          "price": 749.99,
+          "date": "2024-12-01T16:15:00Z"
+        } 
+      ],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-14t-pro-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-fold-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-14t-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-nord-ce4-lite-5g-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-note-13-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-plus-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-xl-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s23-fe-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-7a-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-plus-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-14-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a15-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a25-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-xl-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-max-1024",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-fe-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-14-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-z-flip5-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-xl-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8-pro-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-max-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s23-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-11-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s23-plus-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-max-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-plus-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-se-5g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-max-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a54-5g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a35-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a55-galaxy-watch-4-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "fairphone-4-5g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-note-12-buds-4-lite-smartband-7-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-13t-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-12-refurbished-64",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8-pro-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-nord-4-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-1024",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a55-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-z-flip6-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-note-13-pro-5g-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-se-5g-64",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-11-refurbished-64",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a55-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-14-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8a-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-fold-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-plus-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-plus-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-12-4g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-11-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-12-64",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-14-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-9-pro-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-ultra-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-max-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-13-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-a55-fit3-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-16-pro-max-1024",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oppo-reno8-lite-5g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-14-plus-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-nord-4-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-13-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-15-pro-1024",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-12-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "google-pixel-8-pro-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-14-pro-max-1024",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-13-refurbished-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s23-plus-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-13t-pro-512",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-note-12-pro-5g-watch-2-lite-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-z-flip6-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "fairphone-5-5g-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "xiaomi-redmi-note-13-pro-5g-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "fairphone-5-5g-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-11-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oppo-a57s-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-s24-galaxy-tab-s6-lite-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-11-64",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "apple-iphone-12-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "samsung-galaxy-xcover7-128",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  },
+  {
+    "smartphoneId": "oneplus-12r-256",
+    "prices": {
+      "proximus": [],
+      "orange": [],
+      "voo": []
+    }
+  }
+]
