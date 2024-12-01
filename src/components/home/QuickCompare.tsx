@@ -1,14 +1,6 @@
 import React from 'react';
 import { getPlans } from '@/utils/dataLoader';
-
-interface Plan {
-  id: number;
-  provider: string;
-  name: string;
-  price: number;
-  data: string;
-  features: string[];
-}
+import { Plan } from '@/types/plan';
 
 const QuickCompare = () => {
   const allPlans: Plan[] = getPlans();
@@ -19,34 +11,48 @@ const QuickCompare = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
-          Meilleures offres Internet
+          Comparaison rapide
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {plans.map((plan) => (
-            <div 
+            <div
               key={plan.id}
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
+              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
             >
-              <div className="text-lg font-bold text-blue-600 mb-2">
-                {plan.provider}
+              <div className="text-center mb-4">
+                <h3 className="text-xl font-bold">{plan.provider}</h3>
+                <p className="text-gray-600">{plan.name}</p>
               </div>
-              <h3 className="text-xl font-semibold mb-4">{plan.name}</h3>
-              <div className="text-3xl font-bold mb-4">
-                {plan.price}€<span className="text-sm font-normal">/mois</span>
+              <div className="text-center mb-6">
+                <span className="text-3xl font-bold text-blue-600">{plan.price}€</span>
+                <span className="text-gray-500">/mois</span>
               </div>
-              <div className="text-gray-600 mb-4">
-                Jusqu'à {plan.data}
+              <div className="space-y-4">
+                <div className="flex items-center justify-center space-x-2">
+                  <span className="text-gray-600">Data :</span>
+                  <span className="font-semibold">{plan.data}</span>
+                </div>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  {plan.features?.slice(0, 3).map((feature, index) => (
+                    <li key={index} className="flex items-center">
+                      <svg className="w-4 h-4 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-2">
-                {plan.features.slice(0, 3).map((feature, idx) => (
-                  <li key={idx} className="flex items-center">
-                    <svg className="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
-                    </svg>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-6">
+                <a
+                  href={plan.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+                >
+                  Voir l'offre
+                </a>
+              </div>
             </div>
           ))}
         </div>
