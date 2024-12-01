@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { getPromotions } from '@/utils/dataLoader';
 
 const Promotions = () => {
@@ -19,29 +20,35 @@ const Promotions = () => {
             >
               <div className="relative">
                 <div className="aspect-w-16 aspect-h-9 relative">
-                  {/* Note: Add actual images to public/images/ directory */}
-                  <div className="bg-gray-200 w-full h-48"/>
+                  <Image 
+                    src={`/images/${promo.provider}-logo.svg`}
+                    alt={`${promo.provider} logo`}
+                    className="object-contain p-4"
+                    fill
+                  />
                 </div>
                 <span className="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  {promo.tag}
+                  Promotion
                 </span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{promo.title}</h3>
+                <h3 className="text-xl font-bold mb-2">{promo.name}</h3>
                 <p className="text-gray-600 mb-4">{promo.description}</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-blue-600">{promo.price}€/mois</span>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200">
-                    En savoir plus
-                  </button>
+                  <span className="text-2xl font-bold text-blue-600">{promo.price}€<span className="text-sm font-normal">/mois</span></span>
+                  <Link 
+                    href={promo.url} 
+                    target="_blank"
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+                  >
+                    Voir l'offre
+                  </Link>
                 </div>
-                <div className="mt-4 text-sm text-gray-500">
-                  <ul className="list-disc list-inside">
-                    {promo.conditions.slice(0, 2).map((condition, index) => (
-                      <li key={index}>{condition}</li>
-                    ))}
-                  </ul>
-                </div>
+                {promo.endDate && (
+                  <div className="mt-4 text-sm text-gray-500">
+                    <p>Offre valable jusqu'au {new Date(promo.endDate).toLocaleDateString('fr-FR')}</p>
+                  </div>
+                )}
               </div>
             </div>
           ))}
