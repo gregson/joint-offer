@@ -100,11 +100,16 @@ async function checkPriceChanges() {
           for (const alert of relevantAlerts) {
             console.log(`Envoi d'une notification à ${alert.email} pour ${smartphone.brand} ${smartphone.model}`);
             await sendSmartphonePriceChangeEmail({
-              alert,
+              email: alert.email,
               smartphone,
-              provider,
               oldPrice: lastPrice,
-              newPrice: currentPrice
+              newPrice: currentPrice,
+              provider: provider,
+              alert: {
+                preferences: {
+                  notifyOnAnyChange: true
+                }
+              }
             });
           }
         }
