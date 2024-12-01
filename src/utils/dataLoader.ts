@@ -31,7 +31,7 @@ export function loadPlans(): Plan[] {
 }
 
 export function loadSmartphones(): Smartphone[] {
-  return smartphonesData;
+  return smartphonesData as Smartphone[];
 }
 
 // Alias pour la compatibilité avec le code existant
@@ -115,8 +115,8 @@ const formatData = (value: string | number | undefined): { value: number, displa
 export type SortOption = 
   | 'lowest-price'
   | 'lowest-upfront'
-  | 'most-minutes'
   | 'most-data'
+  | 'most-calls'
   | '24-month-cost';
 
 export const sortPlans = (plans: any[], sortBy: SortOption, selectedPhone: any = null) => {
@@ -148,15 +148,6 @@ export const sortPlans = (plans: any[], sortBy: SortOption, selectedPhone: any =
       case 'lowest-upfront':
         return getUpfrontCost(a) - getUpfrontCost(b);
       
-      case 'most-minutes':
-        const aMinutes = extractNumericMinutes(a);
-        const bMinutes = extractNumericMinutes(b);
-        // Si l'un est illimité (-1), il doit être en premier
-        if (aMinutes === -1) return -1;
-        if (bMinutes === -1) return 1;
-        // Sinon, tri décroissant
-        return bMinutes - aMinutes;
-      
       case 'most-data':
         const aData = extractNumericData(a);
         const bData = extractNumericData(b);
@@ -165,6 +156,15 @@ export const sortPlans = (plans: any[], sortBy: SortOption, selectedPhone: any =
         if (bData === -1) return 1;
         // Sinon, tri décroissant
         return bData - aData;
+      
+      case 'most-calls':
+        const aCalls = extractNumericMinutes(a);
+        const bCalls = extractNumericMinutes(b);
+        // Si l'un est illimité (-1), il doit être en premier
+        if (aCalls === -1) return -1;
+        if (bCalls === -1) return 1;
+        // Sinon, tri décroissant
+        return bCalls - aCalls;
       
       case '24-month-cost':
         return get24MonthCost(a) - get24MonthCost(b);

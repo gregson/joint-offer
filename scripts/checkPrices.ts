@@ -105,11 +105,7 @@ async function checkPriceChanges() {
               oldPrice: lastPrice,
               newPrice: currentPrice,
               provider: provider,
-              alert: {
-                preferences: {
-                  notifyOnAnyChange: true
-                }
-              }
+              alert
             });
           }
         }

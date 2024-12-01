@@ -3,7 +3,7 @@ export interface Smartphone {
   brand: string;
   model: string;
   storage: number;
-  imageUrl?: string;
+  imageUrl: string;
   upfrontPrices: {
     proximus?: {
       price: number;

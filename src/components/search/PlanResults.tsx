@@ -18,12 +18,10 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from 'react-share';
-import { Plan } from '@/types/Plan';
-import { Phone } from '@/types/Phone';
-import DonutGauge from './DonutGauge';
-import { PriceAlertModal } from "@/components/alerts/PriceAlertModal";
 import type { Plan } from '@/types/plan';
 import type { Smartphone } from '@/types/smartphone';
+import DonutGauge from './DonutGauge';
+import { PriceAlertModal } from "@/components/alerts/PriceAlertModal";
 import type { SortOption } from '@/utils/dataLoader';
 import type { Provider } from '@/types/priceAlert';
 
@@ -63,6 +61,19 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
     return match ? parseInt(match[0], 10) : 0;
   };
 
+  const parseMinutesValue = (minutes: any): number => {
+    if (!minutes) return 0;
+    if (typeof minutes === 'number') return minutes;
+    const strValue = String(minutes).toLowerCase();
+    
+    // Cas des minutes illimitées
+    if (strValue.includes('illimité')) return -1;
+    
+    // Extraire le nombre
+    const match = strValue.match(/(\d+)/);
+    return match ? parseInt(match[0], 10) : 0;
+  };
+
   // Fonction de tri des plans avec animation de chargement
   const sortPlans = useCallback((plansToSort: Plan[]): Plan[] => {
     // Ne pas déclencher setIsLoading ici car cela causerait un re-render
@@ -71,13 +82,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
         case 'lowest-price':
           return a.price - b.price;
         case 'lowest-upfront':
-          return (selectedPhone?.upfrontPrices?.[a.provider.toLowerCase()]?.price || 0) - (selectedPhone?.upfrontPrices?.[b.provider.toLowerCase()]?.price || 0);
-        case 'highest-price':
-          return b.price - a.price;
+          return (selectedPhone?.upfrontPrices?.[a.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price || 0) -
+                 (selectedPhone?.upfrontPrices?.[b.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price || 0);
         case 'most-data':
           return parseDataValue(b.data) - parseDataValue(a.data);
-        case 'most-minutes':
-          return parseValue(b.calls) - parseValue(a.calls);
+        case 'most-calls':
+          return parseMinutesValue(b.calls) - parseMinutesValue(a.calls);
+        case '24-month-cost':
+          return (b.price * 24) - (a.price * 24);
         default:
           return 0;
       }
@@ -98,7 +110,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
     return sortPlans(plans.filter(plan => {
       if (!selectedPhone) return true;
       const provider = plan.provider.toLowerCase();
-      return selectedPhone.upfrontPrices?.[provider]?.price !== undefined;
+      return selectedPhone.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']]?.price !== undefined;
     }));
   }, [plans, selectedPhone, sortPlans]);
 
@@ -146,7 +158,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
   }));
 
   const maxCallsValue = Math.max(60, ...sortedPlans.map(plan => {
-    const callsValue = parseValue(plan.calls);
+    const callsValue = parseMinutesValue(plan.calls);
     return callsValue === -1 ? 60 : callsValue;
   }));
 
@@ -170,9 +182,9 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
           >
             <option value="lowest-price">Prix mensuel le plus bas</option>
             <option value="lowest-upfront">Coût initial le plus bas</option>
-            <option value="highest-price">Prix le plus haut</option>
-            <option value="most-minutes">Plus de minutes</option>
             <option value="most-data">Plus de données</option>
+            <option value="most-calls">Plus d'appels</option>
+            <option value="24-month-cost">Coût 24 mois le plus bas</option>
           </select>
         </div>
       </div>
@@ -189,7 +201,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
         {sortedPlans.map((plan) => {
           const provider = plan.provider.toLowerCase();
           const isBestPlan = bestPlan?.id === plan.id;
-          const upfrontPrice = selectedPhone && selectedPhone.upfrontPrices?.[provider];
+          const upfrontPrice = selectedPhone && selectedPhone.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']];
           console.log('Debug upfront price:', {
             provider: plan.provider,
             providerLower: plan.provider.toLowerCase(),
@@ -197,7 +209,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
             upfrontPrice
           });
           const dataValue = parseDataValue(plan.data);
-          const callsValue = parseValue(plan.calls);
+          const callsValue = parseMinutesValue(plan.calls);
 
           return (
             <div
@@ -221,18 +233,22 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                     <div className="flex flex-col items-center">
                       <div className="relative w-24 h-24 mb-2">
                         <Image
-                          src={selectedPhone.imageUrl}
+                          src={selectedPhone.imageUrl || '/images/default-phone.png'}
                           alt={`${selectedPhone.brand} ${selectedPhone.model}`}
                           className="w-full h-full object-contain"
                           width={100}
                           height={100}
                         />
                       </div>
-                      {upfrontPrice && (
+                      {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']] && (
                         <div className="text-center">
                           <p className="text-xs text-gray-600 mb-1">Coût initial</p>
-                          <p className="font-semibold text-blue-600">{upfrontPrice.price}€</p>
-                          <p className="text-xs text-gray-500">{upfrontPrice.conditions}</p>
+                          <p className="font-semibold text-blue-600">
+                            {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']]?.price}€
+                          </p>
+                          <p className="text-xs text-gray-500">
+                            {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']]?.condition}
+                          </p>
                         </div>
                       )}
                     </div>
@@ -330,15 +346,15 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                   <div className="text-3xl font-bold text-blue-600">
                     {plan.price}€<span className="text-sm font-normal">/mois</span>
                   </div>
-                  {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase()]?.condition && (
+                  {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.condition && (
                     <div className="text-sm text-gray-600 text-center mb-2">
-                      {selectedPhone.upfrontPrices[plan.provider.toLowerCase()].condition}
+                      {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.condition}
                     </div>
                   )}
                   <div className="flex gap-2 w-full">
-                    {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase()]?.url ? (
+                    {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url ? (
                       <a
-                        href={selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase()]?.url || plan.url}
+                        href={selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url || plan.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
@@ -381,66 +397,64 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                         <DropdownMenuItem asChild>
                           <FacebookShareButton
                             url={`${window.location.origin}/plan/${plan.id}`}
-                            quote={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase()]
-                              ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
-                              : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
-                            }
+                            hashtag="#JointOffer"
                             onClick={() => {
                               gtag.event({
-                                action: 'share',
-                                category: 'social',
-                                label: 'facebook',
-                                value: Math.round(plan.price)
+                                action: "share",
+                                category: "Social",
+                                label: "Facebook",
+                                value: plan.price
                               });
                             }}
                           >
-                            <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-2">
                               <FacebookIcon size={24} round />
-                              <span>Facebook</span>
+                              <span>Partager sur Facebook</span>
                             </div>
                           </FacebookShareButton>
                         </DropdownMenuItem>
                         <DropdownMenuItem asChild>
                           <TwitterShareButton
                             url={`${window.location.origin}/plan/${plan.id}`}
-                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase()]
-                              ? `J'ai trouvé une super offre sur @JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
+                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
+                              ? `J'ai trouvé une super offre sur @JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
                               : `J'ai trouvé un super forfait sur @JointOffer : ${plan.name} à ${plan.price}€/mois !`
                             }
+                            hashtags={["JointOffer"]}
                             onClick={() => {
                               gtag.event({
-                                action: 'share',
-                                category: 'social',
-                                label: 'twitter',
-                                value: Math.round(plan.price)
+                                action: "share",
+                                category: "Social",
+                                label: "Twitter",
+                                value: plan.price
                               });
                             }}
                           >
-                            <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-2">
                               <TwitterIcon size={24} round />
-                              <span>Twitter</span>
+                              <span>Partager sur Twitter</span>
                             </div>
                           </TwitterShareButton>
                         </DropdownMenuItem>
                         <DropdownMenuItem asChild>
                           <WhatsappShareButton
                             url={`${window.location.origin}/plan/${plan.id}`}
-                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase()]
-                              ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
+                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
+                              ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
                               : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
                             }
                             onClick={() => {
                               gtag.event({
-                                action: 'share',
-                                category: 'social',
-                                label: 'whatsapp',
-                                value: Math.round(plan.price)
+                                action: "share",
+                                category: "Social",
+                                label: "WhatsApp",
+                                value: plan.price
                               });
                             }}
                           >
-                            <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+                            <div className="flex items-center gap-2">
                               <WhatsappIcon size={24} round />
-                              <span>WhatsApp</span>
+                              <span>Partager sur WhatsApp</span>
                             </div>
                           </WhatsappShareButton>
                         </DropdownMenuItem>
@@ -455,7 +469,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
       </div>
 
       {/* Modal d'alerte de prix */}
-      {selectedPlan && selectedPhone && (
+      {isPriceAlertOpen && selectedProvider && selectedPhone && upfrontPrice && (
         <PriceAlertModal
           isOpen={isPriceAlertOpen}
           onClose={() => setIsPriceAlertOpen(false)}

@@ -1,4 +1,9 @@
-export type SortOption = 'lowest-price' | 'highest-price' | 'most-data' | 'most-minutes';
+export type SortOption = 
+  | 'lowest-price'
+  | 'lowest-upfront'
+  | 'most-data'
+  | 'most-calls'
+  | '24-month-cost';
 
 export interface Plan {
   id: string;
@@ -9,13 +14,13 @@ export interface Plan {
   calls: string;
   sms: string;
   networkType: string[];
-  commitment?: string;
-  features?: string[];
+  commitment: string;
+  features: string[];
   url: string;
-  promotion?: {
+  promotion: {
     description: string;
     endDate: string;
-  };
-  dataEurope?: string;
-  internationalCalls?: string;
+  } | null;
+  dataEurope: string;
+  internationalCalls: string;
 }

@@ -124,7 +124,7 @@ export function explainSimilarity(targetPlan: Plan, similarPlan: Plan): string {
     similarities.push('Prix comparable');
   } else {
     differences.push(
-      `${Math.abs(priceDiff.toFixed(2))}€ ${priceDiff > 0 ? 'plus cher' : 'moins cher'} (${pricePercent.toFixed(1)}%)`
+      `${Math.abs(priceDiff).toFixed(2)}€ ${priceDiff > 0 ? 'plus cher' : 'moins cher'} (${pricePercent.toFixed(1)}%)`
     );
   }
 

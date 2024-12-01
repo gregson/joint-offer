@@ -14,18 +14,17 @@ export default function TestFilters() {
     const priceFilteredPlans = filterPlans({ priceRange: [20, 30] });
     
     // Test du filtre de data
-    const dataFilteredPlans = filterPlans({ data: 100 });
+    const dataFilteredPlans = filterPlans({ minData: 100 });
     
     // Test des forfaits illimités
-    const unlimitedDataPlans = filterPlans({ data: -1 });
+    const unlimitedDataPlans = filterPlans({ minData: -1 });
     
     // Test du filtre réseau 5G
-    const network5GPlans = filterPlans({ network: '5G' });
+    const network5GPlans = filterPlans({ networkType: ['5G'] });
     
     // Test combiné
     const combinedFilterPlans = filterPlans({
-      
-      data: -1,
+      minData: -1,
       calls: -1
     });
 

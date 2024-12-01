@@ -13,15 +13,15 @@ priceFilteredPlans.forEach(plan => {
 
 // Test du filtre de data
 console.log('\n2. Test du filtre de data (>= 100Go):');
-const dataFilteredPlans = filterPlans({ data: 100 });
+const dataFilteredPlans = filterPlans({ minData: 100 });
 console.log(`Nombre de forfaits trouvés: ${dataFilteredPlans.length}`);
 dataFilteredPlans.forEach(plan => {
     console.log(`- ${plan.name} (${plan.data})`);
 });
 
 // Test des forfaits illimités
-console.log('\n3. Test du filtre des forfaits data illimités:');
-const unlimitedDataPlans = filterPlans({ data: -1 });
+console.log('\n3. Test des forfaits illimités:');
+const unlimitedDataPlans = filterPlans({ minData: -1 });
 console.log(`Nombre de forfaits trouvés: ${unlimitedDataPlans.length}`);
 unlimitedDataPlans.forEach(plan => {
     console.log(`- ${plan.name} (${plan.data})`);
@@ -29,18 +29,17 @@ unlimitedDataPlans.forEach(plan => {
 
 // Test du filtre réseau 5G
 console.log('\n4. Test du filtre réseau 5G:');
-const network5GPlans = filterPlans({ network: '5G' });
+const network5GPlans = filterPlans({ networkType: ['5G'] });
 console.log(`Nombre de forfaits trouvés: ${network5GPlans.length}`);
 network5GPlans.forEach(plan => {
-    console.log(`- ${plan.name} (${plan.networkType.join(', ')})`);
+    console.log(`- ${plan.name} (${plan.network})`);
 });
 
 // Test combiné
-console.log('\n5. Test combiné (prix: 20-40€, data >= 100Go, 5G):');
+console.log('\n5. Test combiné (data illimitée + appels illimités):');
 const combinedFilterPlans = filterPlans({
-    priceRange: [20, 40],
-    data: 100,
-    network: '5G'
+    minData: -1,
+    calls: -1
 });
 console.log(`Nombre de forfaits trouvés: ${combinedFilterPlans.length}`);
 combinedFilterPlans.forEach(plan => {

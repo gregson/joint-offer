@@ -52,9 +52,9 @@ export function SearchFilters({ onFiltersChange }: SearchFiltersProps) {
 
   const handleReset = () => {
     const defaultFilters = {
-      searchTerm: '',
-      priceRange: [0, 2000],
-      storageRange: [0, 1024],
+      searchTerm: "",
+      priceRange: [0, 2000] as [number, number],
+      storageRange: [0, 1024] as [number, number],
       brands: [],
     };
     setFilters(defaultFilters);

@@ -1,10 +1,9 @@
 import nodemailer from 'nodemailer';
 import type { PriceAlert } from '@/types/priceAlert';
 import type { Smartphone } from '@/types/smartphone';
-import type { SmartphonePriceChangeEmailData } from '@/types/emailData';
+import type { SmartphonePriceChangeEmailData } from '../types/emailData';
 import { Provider } from '@/types/priceAlert';
 import smartphonesData from '../data/smartphones.json';
-import { EmailData } from '../types/emailData';
 
 const smartphones = smartphonesData;
 
@@ -19,7 +18,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export async function sendSmartphonePriceChangeEmail(data: { email: string; smartphone: Smartphone; oldPrice: number; newPrice: number; provider: string; alert: { preferences: { notifyOnAnyChange: boolean } } }): Promise<void> {
+export async function sendSmartphonePriceChangeEmail(data: SmartphonePriceChangeEmailData): Promise<void> {
   const priceChange = data.newPrice - data.oldPrice;
   const priceChangeType = priceChange < 0 ? 'baisse' : 'augmentation';
   const changeAmount = Math.abs(priceChange).toFixed(2);
@@ -94,7 +93,7 @@ export async function sendWelcomeAlertEmail(
   }
 }
 
-export const sendPriceChangeEmail = async (emailData: EmailData): Promise<void> => {
+export const sendPriceChangeEmail = async (emailData: SmartphonePriceChangeEmailData): Promise<void> => {
   try {
     // Simulation d'envoi d'email
     console.log('Sending price change email:', emailData);
