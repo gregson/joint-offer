@@ -61,28 +61,30 @@ const PlanOverview: React.FC<PlanOverviewProps> = ({ plan }) => {
         </div>
 
         {/* Avantages */}
-        <div className="bg-gray-50 rounded-lg p-6">
+        <div className="bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-xl font-semibold mb-4">Avantages inclus</h2>
-          <ul className="space-y-3">
-            {plan.features.map(feature => (
-              <li key={feature} className="flex items-center">
-                <svg
-                  className="w-5 h-5 text-green-500 mr-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
+          {plan.features && plan.features.length > 0 ? (
+            <ul className="space-y-3">
+              {plan.features.map(feature => (
+                <li key={feature} className="flex items-center">
+                  <svg
+                    className="w-5 h-5 text-green-500 mr-2"
+                    fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                {feature}
-              </li>
-            ))}
-          </ul>
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  {feature}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-gray-500">Aucun avantage spécifique listé</p>
+          )}
         </div>
 
         {/* CTA */}
