@@ -83,7 +83,7 @@ export default function PlanPage({ params }: { params: { id: string } }) {
         },
         {
           label: 'Options incluses',
-          value: plan.features.join(', '),
+          value: plan.features?.join(', ') || 'Aucune option',
           info: 'Options et services inclus dans le forfait'
         }
       ]
