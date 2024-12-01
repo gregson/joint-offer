@@ -52,7 +52,7 @@ export default function ComparePage() {
       const phoneIds = phonesParam.split(',');
       const phonesToSelect = phoneIds
         .map(id => smartphones.find(phone => phone.id === id))
-        .filter((phone): phone is Smartphone => phone !== undefined)
+        .filter((phone): phone is NonNullable<typeof phone> => phone !== undefined)
         .slice(0, 3); // Limite de 3 smartphones
       
       if (phonesToSelect.length > 0) {
