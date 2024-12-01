@@ -183,7 +183,7 @@ export function PriceTable({ phones }: PriceTableProps) {
                                       <DropdownMenuItem className="cursor-pointer">
                                         <FacebookShareButton
                                           url={`${window.location.origin}/search?phone=${phone.id}`}
-                                          quote={`J'ai trouvé la meilleure offre pour le ${phone.brand} ${phone.model} !\n${monthlyTotal}€/mois avec ${operator.charAt(0).toUpperCase() + operator.slice(1)} (${plan.name}) - Prix du téléphone : ${upfrontPrice}€`}
+                                          hashtag="#JointOffer"
                                           className="w-full flex items-center"
                                         >
                                           <FacebookIcon size={24} round className="mr-2" />
