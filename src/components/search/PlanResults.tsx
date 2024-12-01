@@ -3,6 +3,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import * as gtag from '@/lib/gtag';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -341,6 +342,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
+                        onClick={() => {
+                          gtag.event({
+                            action: 'view_offer',
+                            category: 'engagement',
+                            label: `${plan.provider} - ${plan.name}${selectedPhone ? ` avec ${selectedPhone.brand} ${selectedPhone.model}` : ''}`,
+                            value: Math.round(plan.price)
+                          });
+                        }}
                       >
                         Voir offre
                       </a>
@@ -348,6 +357,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                       <Link
                         href={`/plan/${plan.id}`}
                         className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
+                        onClick={() => {
+                          gtag.event({
+                            action: 'view_plan_details',
+                            category: 'engagement',
+                            label: `${plan.provider} - ${plan.name}`,
+                            value: Math.round(plan.price)
+                          });
+                        }}
                       >
                         Voir offre
                       </Link>
@@ -368,6 +385,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                               ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
                               : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
                             }
+                            onClick={() => {
+                              gtag.event({
+                                action: 'share',
+                                category: 'social',
+                                label: 'facebook',
+                                value: Math.round(plan.price)
+                              });
+                            }}
                           >
                             <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
                               <FacebookIcon size={24} round />
@@ -379,9 +404,17 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                           <TwitterShareButton
                             url={`${window.location.origin}/plan/${plan.id}`}
                             title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase()]
-                              ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
-                              : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
+                              ? `J'ai trouvé une super offre sur @JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
+                              : `J'ai trouvé un super forfait sur @JointOffer : ${plan.name} à ${plan.price}€/mois !`
                             }
+                            onClick={() => {
+                              gtag.event({
+                                action: 'share',
+                                category: 'social',
+                                label: 'twitter',
+                                value: Math.round(plan.price)
+                              });
+                            }}
                           >
                             <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
                               <TwitterIcon size={24} round />
@@ -396,6 +429,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                               ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase()].price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
                               : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
                             }
+                            onClick={() => {
+                              gtag.event({
+                                action: 'share',
+                                category: 'social',
+                                label: 'whatsapp',
+                                value: Math.round(plan.price)
+                              });
+                            }}
                           >
                             <div className="flex items-center gap-2 w-full p-2 hover:bg-blue-50 rounded-md cursor-pointer">
                               <WhatsappIcon size={24} round />
