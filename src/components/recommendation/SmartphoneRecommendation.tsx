@@ -33,7 +33,7 @@ export const SmartphoneRecommendation: React.FC<SmartphoneRecommendationProps> =
             <div>
               <h3 className="text-xl font-bold">{smartphone.brand} {smartphone.model}</h3>
               <p className="text-sm text-gray-600">
-                {smartphone.storage}GB - {smartphone.color}
+                {smartphone.storage}GB
               </p>
             </div>
             <div className="text-right">
