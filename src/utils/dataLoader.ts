@@ -175,6 +175,22 @@ export const sortPlans = (plans: any[], sortBy: SortOption, selectedPhone: any =
   });
 };
 
+export function getPromotions() {
+  const plans = loadPlans();
+  return plans
+    .filter(plan => plan.promotion)
+    .map(plan => ({
+      id: plan.id,
+      provider: plan.provider,
+      name: plan.name,
+      price: plan.price,
+      description: plan.promotion?.description || '',
+      endDate: plan.promotion?.endDate || '',
+      url: plan.url
+    }))
+    .sort((a, b) => a.price - b.price);
+}
+
 export function filterPlans(filters: {
   priceRange?: [number, number];
   networkType?: string[];
