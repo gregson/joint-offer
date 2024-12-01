@@ -18,8 +18,8 @@ import {
   TwitterIcon,
   WhatsappIcon,
 } from 'react-share';
-import type { Plan } from '@/types/plan';
-import type { Smartphone } from '@/types/smartphone';
+import { Plan } from '@/types/plan';
+import { Smartphone } from '@/types/smartphone';
 import DonutGauge from './DonutGauge';
 import { PriceAlertModal } from "@/components/alerts/PriceAlertModal";
 import type { SortOption } from '@/utils/dataLoader';
