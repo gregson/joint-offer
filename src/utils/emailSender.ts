@@ -4,6 +4,7 @@ import type { Smartphone } from '@/types/smartphone';
 import type { SmartphonePriceChangeEmailData } from '@/types/emailData';
 import { Provider } from '@/types/priceAlert';
 import smartphonesData from '../data/smartphones.json';
+import { EmailData } from '../types/emailData';
 
 const smartphones = smartphonesData;
 
@@ -92,3 +93,23 @@ export async function sendWelcomeAlertEmail(
     throw error;
   }
 }
+
+export const sendPriceChangeEmail = async (emailData: EmailData): Promise<void> => {
+  try {
+    // Simulation d'envoi d'email
+    console.log('Sending price change email:', emailData);
+  } catch (error) {
+    console.error('Error sending price change email:', error);
+    throw error;
+  }
+};
+
+export const sendEmail = async (to: string, subject: string, body: string): Promise<void> => {
+  try {
+    // Simulation d'envoi d'email
+    console.log('Sending email:', { to, subject, body });
+  } catch (error) {
+    console.error('Error sending email:', error);
+    throw error;
+  }
+};

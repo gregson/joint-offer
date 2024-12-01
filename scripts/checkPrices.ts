@@ -1,7 +1,7 @@
-import { readFileSync, writeFileSync } from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { getAlerts } from '../src/utils/priceAlerts';
-import { sendPriceChangeEmail } from '../src/utils/emailSender';
+import { sendSmartphonePriceChangeEmail } from '../src/utils/emailSender';
 import { Smartphone } from '../src/types/smartphone';
 import { Provider } from '../src/types/priceAlert';
 
@@ -19,7 +19,7 @@ const SMARTPHONES_PATH = path.join(process.cwd(), 'src/data/smartphones.json');
 
 function loadPriceHistory(): PriceHistory[] {
   try {
-    const content = readFileSync(PRICE_HISTORY_PATH, 'utf-8');
+    const content = fs.readFileSync(PRICE_HISTORY_PATH, 'utf-8');
     return JSON.parse(content);
   } catch {
     return [];
@@ -27,11 +27,11 @@ function loadPriceHistory(): PriceHistory[] {
 }
 
 function savePriceHistory(history: PriceHistory[]): void {
-  writeFileSync(PRICE_HISTORY_PATH, JSON.stringify(history, null, 2));
+  fs.writeFileSync(PRICE_HISTORY_PATH, JSON.stringify(history, null, 2));
 }
 
 function loadSmartphones(): Smartphone[] {
-  const content = readFileSync(SMARTPHONES_PATH, 'utf-8');
+  const content = fs.readFileSync(SMARTPHONES_PATH, 'utf-8');
   return JSON.parse(content);
 }
 
@@ -99,7 +99,7 @@ async function checkPriceChanges() {
           // Envoyer les notifications
           for (const alert of relevantAlerts) {
             console.log(`Envoi d'une notification à ${alert.email} pour ${smartphone.brand} ${smartphone.model}`);
-            await sendPriceChangeEmail({
+            await sendSmartphonePriceChangeEmail({
               alert,
               smartphone,
               provider,
