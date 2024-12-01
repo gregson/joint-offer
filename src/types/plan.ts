@@ -11,6 +11,7 @@ export interface Plan {
   networkType: string[];
   commitment?: string;
   features?: string[];
+  url: string;
   promotion?: {
     description: string;
     endDate: string;

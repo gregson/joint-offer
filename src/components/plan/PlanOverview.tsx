@@ -1,20 +1,8 @@
 import React from 'react';
+import { Plan } from '@/types/plan';
 
 interface PlanOverviewProps {
-  plan: {
-    provider: string;
-    name: string;
-    price: number;
-    data: string;
-    commitment: string;
-    networkType: string[];
-    features: string[];
-    url: string;
-    promotion?: {
-      description: string;
-      endDate: string;
-    };
-  };
+  plan: Plan;
 }
 
 const PlanOverview: React.FC<PlanOverviewProps> = ({ plan }) => {
