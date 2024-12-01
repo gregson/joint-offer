@@ -45,6 +45,8 @@ export default function ComparePage() {
 
   // Charger les smartphones depuis l'URL au chargement de la page
   useEffect(() => {
+    if (!searchParams) return;
+    
     const phonesParam = searchParams.get('phones');
     if (phonesParam && smartphones.length > 0) {
       const phoneIds = phonesParam.split(',');
