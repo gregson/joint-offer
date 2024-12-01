@@ -392,7 +392,7 @@ export default function ComparePage() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <FacebookShareButton 
                             url={shareUrl}
-                            body={shareTitle}
+                            quote={shareTitle}
                             hashtag="#JointOffer"
                             onClick={handleFacebookShare}
                           >
