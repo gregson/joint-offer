@@ -54,6 +54,28 @@
         "notifyOnAnyChange": false,
         "notifyOnPriceDecrease": true
       }
+    },
+    {
+      "id": "ecd4ebe8-0b45-46ef-9b21-d7947750c90c",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "samsung-galaxy-a35-128",
+      "provider": "voo",
+      "createdAt": "2024-12-02T02:46:51.008Z",
+      "preferences": {
+        "notifyOnAnyChange": true,
+        "notifyOnPriceDecrease": false
+      }
+    },
+    {
+      "id": "df847451-30e8-4d83-be72-2c2912e956b1",
+      "email": "gregson2@gmail.com",
+      "smartphoneId": "samsung-galaxy-a55-galaxy-watch-4-256",
+      "provider": "proximus",
+      "createdAt": "2024-12-02T02:51:02.809Z",
+      "preferences": {
+        "notifyOnAnyChange": true,
+        "notifyOnPriceDecrease": false
+      }
     }
   ]
 }

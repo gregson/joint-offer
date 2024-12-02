@@ -20,8 +20,24 @@ const PopularSmartphones: React.FC<PopularSmartphonesProps> = ({ onSelect }) => 
 
   // Fonction pour trouver le prix le plus bas parmi tous les providers
   const getLowestPrice = (phone: Smartphone) => {
-    if (!phone.upfrontPrices) return null;
-    return Math.min(...Object.values(phone.upfrontPrices).map(p => p.price));
+    const prices = [];
+    
+    // Prix de base Proximus
+    if (phone.upfrontPrices?.proximus) {
+      prices.push(20.99); // Prix de base Proximus
+    }
+    
+    // Prix de base Orange
+    if (phone.upfrontPrices?.orange) {
+      prices.push(20); // Prix de base Orange
+    }
+    
+    // Prix de base VOO
+    if (phone.upfrontPrices?.voo) {
+      prices.push(18); // Prix de base VOO
+    }
+    
+    return prices.length > 0 ? Math.min(...prices) : null;
   };
 
   return (
@@ -30,6 +46,7 @@ const PopularSmartphones: React.FC<PopularSmartphonesProps> = ({ onSelect }) => 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {popularPhones.map(phone => {
           const lowestPrice = getLowestPrice(phone);
+          const plan = Object.values(phone.plans).find(plan => plan.monthlyPrice === lowestPrice);
           return (
             <div
               key={phone.id}
@@ -47,7 +64,7 @@ const PopularSmartphones: React.FC<PopularSmartphonesProps> = ({ onSelect }) => 
               <p className="text-gray-600">{phone.storage}GB</p>
               {lowestPrice !== null && (
                 <p className="text-blue-600 font-semibold mt-2">
-                  À partir de {lowestPrice}€
+                  À partir de {lowestPrice}€/mois
                 </p>
               )}
               <div className="mt-2 flex gap-2">

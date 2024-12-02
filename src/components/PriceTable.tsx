@@ -16,6 +16,7 @@ import {
   TwitterIcon,
   WhatsappIcon
 } from 'react-share';
+import plansData from '@/data/plans.json';
 
 interface PriceTableProps {
   phones: Array<{
@@ -31,14 +32,17 @@ interface PriceTableProps {
       proximus?: {
         price: number;
         url?: string;
+        condition?: string;
       };
       voo?: {
         price: number;
         url?: string;
+        condition?: string;
       };
       orange?: {
         price: number;
         url?: string;
+        condition?: string;
       };
     };
   }>;
@@ -50,28 +54,60 @@ interface PlanDetails {
   monthlyPrice: number;
 }
 
+// Organiser les plans par opérateur
 const OPERATOR_PLANS: Record<string, PlanDetails[]> = {
-  proximus: [
-    { name: 'Mobile Flex S', dataGB: 5, monthlyPrice: 20.99 },
-    { name: 'Mobile Flex M', dataGB: 15, monthlyPrice: 27.99 },
-    { name: 'Mobile Flex L', dataGB: 40, monthlyPrice: 34.99 },
-  ],
-  voo: [
-    { name: 'Mobile S', dataGB: 3, monthlyPrice: 15 },
-    { name: 'Mobile M', dataGB: 10, monthlyPrice: 20 },
-    { name: 'Mobile L', dataGB: 30, monthlyPrice: 30 },
-  ],
-  orange: [
-    { name: 'Go Light', dataGB: 4, monthlyPrice: 20 },
-    { name: 'Go Plus', dataGB: 15, monthlyPrice: 30 },
-    { name: 'Go Unlimited', dataGB: 999, monthlyPrice: 40 },
-  ],
+  proximus: plansData.plans
+    .filter(plan => plan.provider.toLowerCase() === 'proximus')
+    .map(plan => ({
+      name: plan.name,
+      dataGB: parseInt(plan.data),
+      monthlyPrice: plan.price
+    })),
+  voo: plansData.plans
+    .filter(plan => plan.provider.toLowerCase() === 'voo')
+    .map(plan => ({
+      name: plan.name,
+      dataGB: parseInt(plan.data),
+      monthlyPrice: plan.price
+    })),
+  orange: plansData.plans
+    .filter(plan => plan.provider.toLowerCase() === 'orange')
+    .map(plan => ({
+      name: plan.name,
+      dataGB: parseInt(plan.data),
+      monthlyPrice: plan.price
+    }))
 };
 
 export function PriceTable({ phones }: PriceTableProps) {
+  // Extraire le prix mensuel de l'option data depuis la condition
+  const extractDataOptionPrice = (condition: string | undefined): number => {
+    if (!condition) return 0;
+    
+    // Pour Proximus: "Avec DataPhone 3,5 GB : €35/mois."
+    const proximusMatch = condition.match(/€(\d+)\/mois/);
+    if (proximusMatch) return Number(proximusMatch[1]);
+    
+    // Pour Orange: "Avec Option Data à 35€/mois"
+    const orangeMatch = condition.match(/à (\d+)€\/mois/);
+    if (orangeMatch) return Number(orangeMatch[1]);
+    
+    // Pour VOO: "Avec 20 Gb pour 38€/mois"
+    const vooMatch = condition.match(/pour (\d+)€\/mois/);
+    if (vooMatch) return Number(vooMatch[1]);
+    
+    return 0;
+  };
+
   // Calculer le prix mensuel total pour chaque combinaison
-  const calculateMonthlyTotal = (upfrontPrice: number | null, planPrice: number) => {
-    return upfrontPrice ? Math.round((upfrontPrice / 24 + planPrice) * 100) / 100 : null;
+  const calculateMonthlyTotal = (phone: any, operator: string, planPrice: number) => {
+    const upfrontPrice = phone.upfrontPrices?.[operator]?.price;
+    if (!upfrontPrice) return null;
+
+    const dataOptionPrice = extractDataOptionPrice(phone.upfrontPrices?.[operator]?.condition);
+    const total = planPrice + dataOptionPrice;
+    
+    return Math.round(total * 100) / 100;
   };
 
   // Trouver le prix mensuel le plus bas parmi toutes les offres
@@ -82,8 +118,7 @@ export function PriceTable({ phones }: PriceTableProps) {
     Object.entries(OPERATOR_PLANS).forEach(([operator, plans]) => {
       plans.forEach(plan => {
         phones.forEach(phone => {
-          const upfrontPrice = phone.prices[operator as keyof typeof phone.prices];
-          const monthlyTotal = calculateMonthlyTotal(upfrontPrice, plan.monthlyPrice);
+          const monthlyTotal = calculateMonthlyTotal(phone, operator, plan.monthlyPrice);
           if (monthlyTotal && monthlyTotal < lowestPrice) {
             lowestPrice = monthlyTotal;
             lowestPriceDetails = {
@@ -128,8 +163,7 @@ export function PriceTable({ phones }: PriceTableProps) {
                   </span>
                 </td>
                 {phones.map(phone => {
-                  const upfrontPrice = phone.prices[operator as keyof typeof phone.prices];
-                  const monthlyTotal = calculateMonthlyTotal(upfrontPrice, plan.monthlyPrice);
+                  const monthlyTotal = calculateMonthlyTotal(phone, operator, plan.monthlyPrice);
                   const isBestOffer = bestOffer.operator === operator && 
                                     bestOffer.plan === plan.name && 
                                     bestOffer.phoneId === phone.id;
@@ -141,15 +175,22 @@ export function PriceTable({ phones }: PriceTableProps) {
                         isBestOffer ? 'bg-green-50 rounded-lg' : ''
                       }`}
                     >
-                      {upfrontPrice ? (
+                      {phone.upfrontPrices?.[operator as keyof typeof phone.upfrontPrices]?.price ? (
                         <>
                           <div className="space-y-2">
-                            <div>Prix initial: {upfrontPrice}€</div>
-                            <div className={isBestOffer ? 'font-medium text-green-700' : ''}>
-                              Mensuel total: {monthlyTotal}€
+                            <div>Prix initial du téléphone: {phone.upfrontPrices[operator as keyof typeof phone.upfrontPrices]?.price}€</div>
+                            <div className="text-sm text-gray-500">
+                              Détail mensuel :
+                              <ul className="list-disc list-inside ml-2">
+                                <li>Abonnement : {plan.monthlyPrice}€/mois</li>
+                                <li>Option data : {extractDataOptionPrice(phone.upfrontPrices[operator as keyof typeof phone.upfrontPrices]?.condition)}€/mois</li>
+                              </ul>
+                            </div>
+                            <div className={`font-medium ${isBestOffer ? 'text-green-700' : ''}`}>
+                              Total mensuel : {monthlyTotal}€/mois
                             </div>
                             <div className="text-xs text-gray-400">
-                              (sur 24 mois avec {plan.name})
+                              {phone.upfrontPrices[operator as keyof typeof phone.upfrontPrices]?.condition}
                             </div>
                             {isBestOffer && (
                               <>
@@ -193,7 +234,7 @@ export function PriceTable({ phones }: PriceTableProps) {
                                       <DropdownMenuItem className="cursor-pointer">
                                         <TwitterShareButton
                                           url={`${window.location.origin}/search?phone=${phone.id}`}
-                                          title={`J'ai trouvé la meilleure offre pour le ${phone.brand} ${phone.model} !\n${monthlyTotal}€/mois avec ${operator.charAt(0).toUpperCase() + operator.slice(1)} (${plan.name}) - Prix du téléphone : ${upfrontPrice}€`}
+                                          title={`J'ai trouvé la meilleure offre pour le ${phone.brand} ${phone.model} !\n${monthlyTotal}€/mois avec ${operator.charAt(0).toUpperCase() + operator.slice(1)} (${plan.name}) - Prix du téléphone : ${phone.upfrontPrices[operator as keyof typeof phone.upfrontPrices]?.price}€`}
                                           className="w-full flex items-center"
                                         >
                                           <TwitterIcon size={24} round className="mr-2" />
@@ -203,7 +244,7 @@ export function PriceTable({ phones }: PriceTableProps) {
                                       <DropdownMenuItem className="cursor-pointer">
                                         <WhatsappShareButton
                                           url={`${window.location.origin}/search?phone=${phone.id}`}
-                                          title={`J'ai trouvé la meilleure offre pour le ${phone.brand} ${phone.model} !\n${monthlyTotal}€/mois avec ${operator.charAt(0).toUpperCase() + operator.slice(1)} (${plan.name}) - Prix du téléphone : ${upfrontPrice}€`}
+                                          title={`J'ai trouvé la meilleure offre pour le ${phone.brand} ${phone.model} !\n${monthlyTotal}€/mois avec ${operator.charAt(0).toUpperCase() + operator.slice(1)} (${plan.name}) - Prix du téléphone : ${phone.upfrontPrices[operator as keyof typeof phone.upfrontPrices]?.price}€`}
                                           className="w-full flex items-center"
                                         >
                                           <WhatsappIcon size={24} round className="mr-2" />

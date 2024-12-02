@@ -95,48 +95,54 @@ export default function ComparePage() {
   const shareUrl = `${baseUrl}/compare?phones=${selectedPhones.map(p => p.id).join(',')}`;
   
   const getLowestMonthlyPrice = (phone: Smartphone) => {
-    const prices = [
-      phone.upfrontPrices?.proximus?.price,
-      phone.upfrontPrices?.orange?.price,
-      phone.upfrontPrices?.voo?.price
-    ].filter(price => price !== undefined) as number[];
+    const prices = [];
     
-    if (prices.length === 0) return null;
-    const lowestUpfront = Math.min(...prices);
-    return Math.round((lowestUpfront / 24 + 20.99) * 100) / 100; // 20.99€ est le forfait de base le moins cher
+    // Prix de base Proximus
+    if (phone.upfrontPrices?.proximus) {
+      prices.push(20.99); // Prix de base Proximus
+    }
+    
+    // Prix de base Orange
+    if (phone.upfrontPrices?.orange) {
+      prices.push(20); // Prix de base Orange
+    }
+    
+    // Prix de base VOO
+    if (phone.upfrontPrices?.voo) {
+      prices.push(18); // Prix de base VOO
+    }
+    
+    return prices.length > 0 ? Math.min(...prices) : null;
+  };
+
+  const getBestPlan = (phone: Smartphone) => {
+    const plans = [
+      { operator: 'Proximus', upfrontPrice: phone.upfrontPrices?.proximus?.price, plan: 'Mobile Flex S', monthly: 20.99 },
+      { operator: 'Orange', upfrontPrice: phone.upfrontPrices?.orange?.price, plan: 'Go Light', monthly: 20 },
+      { operator: 'VOO', upfrontPrice: phone.upfrontPrices?.voo?.price, plan: 'Mobile S', monthly: 18 }
+    ].filter(p => p.upfrontPrice !== undefined && p.upfrontPrice !== null);
+
+    if (plans.length === 0) return null;
+
+    return plans.reduce((best, current) => {
+      return current.monthly < best.monthly ? current : best;
+    });
   };
 
   const formatPrice = (price: number | null | undefined): string => {
     return price ? `${price}€` : 'N/A';
   };
 
-  const getBestPlan = (phone: Smartphone) => {
-    const plans = [
-      { operator: 'Proximus', price: phone.upfrontPrices?.proximus?.price, plan: 'Mobile Flex S', monthly: 20.99 },
-      { operator: 'VOO', price: phone.upfrontPrices?.voo?.price, plan: 'Mobile S', monthly: 15 },
-      { operator: 'Orange', price: phone.upfrontPrices?.orange?.price, plan: 'Go Light', monthly: 20 },
-    ].filter(p => p.price !== undefined && p.price !== null);
-
-    if (plans.length === 0) return null;
-
-    return plans.reduce((best, current) => {
-      const bestTotal = best.price! / 24 + best.monthly;
-      const currentTotal = current.price! / 24 + current.monthly;
-      return currentTotal < bestTotal ? current : best;
-    });
-  };
-
   const generateComparisonText = () => {
-    const intro = "📱 Comparaison intéressante de smartphones avec abonnement sur JointOffer !\n\n";
+    const intro = "📱 Comparaison de smartphones sur JointOffer !\n\n";
     
     const phonesComparison = selectedPhones.map(phone => {
       const bestPlan = getBestPlan(phone);
       const text = `${phone.brand} ${phone.model} (${phone.storage}GB):\n`;
       if (bestPlan) {
-        const monthlyTotal = Math.round((bestPlan.price! / 24 + bestPlan.monthly) * 100) / 100;
         return text + `- Meilleure offre: ${bestPlan.operator} avec ${bestPlan.plan}\n` +
-               `- Prix initial: ${formatPrice(bestPlan.price)}\n` +
-               `- Prix mensuel total: ${formatPrice(monthlyTotal)} (sur 24 mois)\n`;
+               `- Prix initial du téléphone: ${formatPrice(bestPlan.upfrontPrice)}\n` +
+               `- Prix mensuel de base: ${formatPrice(bestPlan.monthly)}€\n`;
       }
       return text + "- Données non disponibles\n";
     }).join("\n");
@@ -148,7 +154,7 @@ export default function ComparePage() {
   };
 
   const shareTitle = `Comparaison de smartphones sur JointOffer:\n${selectedPhones.map(phone => 
-    `${phone.brand} ${phone.model} (à partir de ${getLowestMonthlyPrice(phone)}€/mois)`
+    `${phone.brand} ${phone.model} (forfait à partir de ${getLowestMonthlyPrice(phone)}€/mois)`
   ).join(' vs ')}`;
 
   const shareMessage = generateComparisonText();
