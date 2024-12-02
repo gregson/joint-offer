@@ -26,7 +26,7 @@ export async function sendSmartphonePriceChangeEmail(data: SmartphonePriceChange
   const searchUrl = `${baseUrl}/search?phone=${data.smartphone.id}`;
 
   const mailOptions = {
-    from: process.env.EMAIL_FROM,
+    from: process.env.SMTP_FROM,
     to: data.email,
     subject: `${priceChangeType.charAt(0).toUpperCase() + priceChangeType.slice(1)} de prix - ${data.smartphone.brand} ${data.smartphone.model}`,
     html: `
@@ -71,7 +71,7 @@ export async function sendWelcomeAlertEmail(
   }
 
   const mailOptions = {
-    from: process.env.EMAIL_FROM,
+    from: process.env.SMTP_FROM,
     to: email,
     subject: `Alerte de prix créée pour ${smartphone.brand} ${smartphone.model}`,
     html: `

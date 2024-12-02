@@ -12,10 +12,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import {
   FacebookShareButton,
-  TwitterShareButton,
   WhatsappShareButton,
   FacebookIcon,
-  TwitterIcon,
   WhatsappIcon,
 } from 'react-share';
 import { Plan } from '@/types/plan';
@@ -24,6 +22,7 @@ import DonutGauge from './DonutGauge';
 import { PriceAlertModal } from "@/components/alerts/PriceAlertModal";
 import type { SortOption } from '@/utils/dataLoader';
 import type { Provider } from '@/types/priceAlert';
+import { Bell, TrendingDown, ArrowUpDown, Mail } from "lucide-react";
 
 interface PlanResultsProps {
   plans: Plan[];
@@ -199,9 +198,8 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
       {/* Liste des forfaits */}
       <div className={`space-y-4 transition-opacity duration-300 ${isLoading ? 'opacity-50' : 'opacity-100'}`}>
         {sortedPlans.map((plan) => {
-          const provider = plan.provider.toLowerCase();
           const isBestPlan = bestPlan?.id === plan.id;
-          const upfrontPrice = selectedPhone && selectedPhone.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']];
+          const upfrontPrice = selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']];
           console.log('Debug upfront price:', {
             provider: plan.provider,
             providerLower: plan.provider.toLowerCase(),
@@ -240,14 +238,14 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                           height={100}
                         />
                       </div>
-                      {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']] && (
+                      {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']] && (
                         <div className="text-center">
                           <p className="text-xs text-gray-600 mb-1">Coût initial</p>
                           <p className="font-semibold text-blue-600">
-                            {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']]?.price}€
+                            {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€
                           </p>
                           <p className="text-xs text-gray-500">
-                            {selectedPhone?.upfrontPrices?.[provider as keyof Smartphone['upfrontPrices']]?.condition}
+                            {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.condition}
                           </p>
                         </div>
                       )}
@@ -351,115 +349,134 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                       {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.condition}
                     </div>
                   )}
-                  <div className="flex gap-2 w-full">
-                    {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url ? (
-                      <a
-                        href={selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url || plan.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
+                  <div className="flex flex-col gap-2 w-full">
+                    <div className="flex gap-2">
+                      {selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url ? (
+                        <a
+                          href={selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.url || plan.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
+                          onClick={() => {
+                            gtag.event({
+                              action: 'view_offer',
+                              category: 'engagement',
+                              label: `${plan.provider} - ${plan.name}${selectedPhone ? ` avec ${selectedPhone.brand} ${selectedPhone.model}` : ''}`,
+                              value: Math.round(plan.price)
+                            });
+                          }}
+                        >
+                          Voir offre
+                        </a>
+                      ) : (
+                        <Link
+                          href={`/plan/${plan.id}`}
+                          className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
+                          onClick={() => {
+                            gtag.event({
+                              action: 'view_plan_details',
+                              category: 'engagement',
+                              label: `${plan.provider} - ${plan.name}`,
+                              value: Math.round(plan.price)
+                            });
+                          }}
+                        >
+                          Voir offre
+                        </Link>
+                      )}
+                      <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                          <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 p-2 rounded-lg transition-colors duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                            </svg>
+                          </button>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent>
+                          <DropdownMenuItem asChild>
+                            <FacebookShareButton
+                              url={`${window.location.origin}/plan/${plan.id}`}
+                              hashtag="#JointOffer"
+                              onClick={() => {
+                                gtag.event({
+                                  action: "share",
+                                  category: "Social",
+                                  label: "Facebook",
+                                  value: plan.price
+                                });
+                              }}
+                            >
+                              <div className="flex items-center gap-2 w-full">
+                                <FacebookIcon size={24} round />
+                                <span>Partager sur Facebook</span>
+                              </div>
+                            </FacebookShareButton>
+                          </DropdownMenuItem>
+                          <DropdownMenuItem asChild>
+                            <a
+                              href={`https://twitter.com/intent/tweet?url=${window.location.origin}/plan/${plan.id}&text=J'ai%20trouv%C3%A9%20un%20super%20forfait%20sur%20@JointOffer%20:%20${plan.name}%20%C3%A0%20${plan.price}%E2%82%AC/mois%20!`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() => {
+                                gtag.event({
+                                  action: "share",
+                                  category: "Social",
+                                  label: "X",
+                                  value: plan.price
+                                });
+                              }}
+                            >
+                              <div className="flex items-center gap-2 w-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 p-0.5" viewBox="0 0 24 24" fill="currentColor">
+                                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                                </svg>
+                                <span>Partager sur X</span>
+                              </div>
+                            </a>
+                          </DropdownMenuItem>
+                          <DropdownMenuItem asChild>
+                            <WhatsappShareButton
+                              url={`${window.location.origin}/plan/${plan.id}`}
+                              title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
+                                ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
+                                : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
+                              }
+                              onClick={() => {
+                                gtag.event({
+                                  action: "share",
+                                  category: "Social",
+                                  label: "WhatsApp",
+                                  value: plan.price
+                                });
+                              }}
+                            >
+                              <div className="flex items-center gap-2 w-full">
+                                <WhatsappIcon size={24} round />
+                                <span>Partager sur WhatsApp</span>
+                              </div>
+                            </WhatsappShareButton>
+                          </DropdownMenuItem>
+                        </DropdownMenuContent>
+                      </DropdownMenu>
+                    </div>
+                    {!!selectedPhone?.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']] && (
+                      <button
                         onClick={() => {
-                          gtag.event({
-                            action: 'view_offer',
-                            category: 'engagement',
-                            label: `${plan.provider} - ${plan.name}${selectedPhone ? ` avec ${selectedPhone.brand} ${selectedPhone.model}` : ''}`,
-                            value: Math.round(plan.price)
-                          });
+                          setSelectedProvider(plan.provider as Provider);
+                          setUpfrontPrice(selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price || 0);
+                          setIsPriceAlertOpen(true);
                         }}
+                        className="bg-blue-100 hover:bg-blue-200 text-blue-600 font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center flex items-center justify-center gap-2"
                       >
-                        Voir offre
-                      </a>
-                    ) : (
-                      <Link
-                        href={`/plan/${plan.id}`}
-                        className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 text-center"
-                        onClick={() => {
-                          gtag.event({
-                            action: 'view_plan_details',
-                            category: 'engagement',
-                            label: `${plan.provider} - ${plan.name}`,
-                            value: Math.round(plan.price)
-                          });
-                        }}
-                      >
-                        Voir offre
-                      </Link>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+                          <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+                          <path d="M4 2C2.8 3.7 2 5.7 2 8" />
+                          <path d="M22 8c0-2.3-.8-4.3-2-6" />
+                        </svg>
+                        Alerte de prix
+                      </button>
                     )}
-                    <DropdownMenu>
-                      <DropdownMenuTrigger asChild>
-                        <button className="bg-blue-100 hover:bg-blue-200 text-blue-600 p-2 rounded-lg transition-colors duration-200">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                          </svg>
-                        </button>
-                      </DropdownMenuTrigger>
-                      <DropdownMenuContent className="w-48 bg-white rounded-lg shadow-lg p-2">
-                        <DropdownMenuItem asChild>
-                          <FacebookShareButton
-                            url={`${window.location.origin}/plan/${plan.id}`}
-                            hashtag="#JointOffer"
-                            onClick={() => {
-                              gtag.event({
-                                action: "share",
-                                category: "Social",
-                                label: "Facebook",
-                                value: plan.price
-                              });
-                            }}
-                          >
-                            <div className="flex items-center gap-2">
-                              <FacebookIcon size={24} round />
-                              <span>Partager sur Facebook</span>
-                            </div>
-                          </FacebookShareButton>
-                        </DropdownMenuItem>
-                        <DropdownMenuItem asChild>
-                          <TwitterShareButton
-                            url={`${window.location.origin}/plan/${plan.id}`}
-                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
-                              ? `J'ai trouvé une super offre sur @JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
-                              : `J'ai trouvé un super forfait sur @JointOffer : ${plan.name} à ${plan.price}€/mois !`
-                            }
-                            hashtags={["JointOffer"]}
-                            onClick={() => {
-                              gtag.event({
-                                action: "share",
-                                category: "Social",
-                                label: "Twitter",
-                                value: plan.price
-                              });
-                            }}
-                          >
-                            <div className="flex items-center gap-2">
-                              <TwitterIcon size={24} round />
-                              <span>Partager sur Twitter</span>
-                            </div>
-                          </TwitterShareButton>
-                        </DropdownMenuItem>
-                        <DropdownMenuItem asChild>
-                          <WhatsappShareButton
-                            url={`${window.location.origin}/plan/${plan.id}`}
-                            title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
-                              ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
-                              : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
-                            }
-                            onClick={() => {
-                              gtag.event({
-                                action: "share",
-                                category: "Social",
-                                label: "WhatsApp",
-                                value: plan.price
-                              });
-                            }}
-                          >
-                            <div className="flex items-center gap-2">
-                              <WhatsappIcon size={24} round />
-                              <span>Partager sur WhatsApp</span>
-                            </div>
-                          </WhatsappShareButton>
-                        </DropdownMenuItem>
-                      </DropdownMenuContent>
-                    </DropdownMenu>
                   </div>
                 </div>
               </div>
@@ -469,7 +486,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
       </div>
 
       {/* Modal d'alerte de prix */}
-      {isPriceAlertOpen && selectedProvider && selectedPhone && upfrontPrice && (
+      {selectedPhone && selectedProvider && upfrontPrice !== null && (
         <PriceAlertModal
           isOpen={isPriceAlertOpen}
           onClose={() => setIsPriceAlertOpen(false)}
