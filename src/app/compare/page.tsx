@@ -148,9 +148,9 @@ export default function ComparePage() {
     }).join("\n");
 
     const compareUrl = `\n🔍 Comparez vous-même sur ${shareUrl}\n`;
-    const footer = "\n#JointOffer #ComparaisonSmartphones #MeilleurPrix";
+    const hashtags = "\n#JointOffer #ComparaisonPrix #Smartphone #BonPlan #Proximus #Orange #VOO #Mobile #Belgique";
 
-    return intro + phonesComparison + compareUrl + footer;
+    return intro + phonesComparison + compareUrl + hashtags;
   };
 
   const shareTitle = `Comparaison de smartphones sur JointOffer:\n${selectedPhones.map(phone => 
@@ -411,7 +411,7 @@ export default function ComparePage() {
                           <TwitterShareButton 
                             url={shareUrl} 
                             title={shareTitle}
-                            hashtags={["JointOffer", "ComparaisonSmartphones", "MeilleurPrix"]}
+                            hashtags={["JointOffer", "ComparaisonPrix", "Smartphone", "BonPlan", "Proximus", "Orange", "VOO", "Mobile", "Belgique"]}
                           >
                             <Button variant="outline" size="lg" className="w-full flex items-center justify-center space-x-3 hover:bg-blue-50">
                               <TwitterIcon size={32} round={true} />
