@@ -20,7 +20,7 @@ export default function PopularPlans() {
         <div key={plan.id} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
           <div className="flex items-center gap-4 mb-4">
             <img 
-              src={`/images/${plan.provider}-logo.svg`}
+              src={`/images/${plan.provider === 'VOO' ? 'Voo' : plan.provider === 'Orange' ? 'Orange' : 'Proximus'}-logo.svg`}
               alt={`${plan.provider} logo`}
               className="w-12 h-12 object-contain"
             />
