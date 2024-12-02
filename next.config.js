@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    domains: ['jointoffer.be', 'www.jointoffer.be'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -21,6 +22,8 @@ const nextConfig = {
       }
     ],
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://www.jointoffer.be' : '',
+  basePath: '',
 }
 
 module.exports = nextConfig
