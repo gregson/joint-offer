@@ -46,7 +46,6 @@ const PopularSmartphones: React.FC<PopularSmartphonesProps> = ({ onSelect }) => 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {popularPhones.map(phone => {
           const lowestPrice = getLowestPrice(phone);
-          const plan = Object.values(phone.plans).find(plan => plan.monthlyPrice === lowestPrice);
           return (
             <div
               key={phone.id}
