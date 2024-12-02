@@ -20,9 +20,8 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.base.be',
       }
-    ],
+    ]
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://www.jointoffer.be' : '',
   basePath: '',
 }
 
