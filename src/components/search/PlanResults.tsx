@@ -414,7 +414,11 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                           </DropdownMenuItem>
                           <DropdownMenuItem asChild>
                             <a
-                              href={`https://twitter.com/intent/tweet?url=${window.location.origin}/plan/${plan.id}&text=J'ai%20trouv%C3%A9%20un%20super%20forfait%20sur%20@JointOffer%20:%20${plan.name}%20%C3%A0%20${plan.price}%E2%82%AC/mois%20!`}
+                              href={`https://twitter.com/intent/tweet?url=${window.location.origin}/search${selectedPhone ? `?phone=${selectedPhone.id}` : ''}&text=${encodeURIComponent(
+                                selectedPhone 
+                                  ? `J'ai trouvé la meilleure offre pour le ${selectedPhone.brand} ${selectedPhone.model} !\n${plan.price}€/mois avec ${plan.provider} (${plan.name}) - Prix du téléphone : ${selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€\n\n#JointOffer #ComparaisonPrix #Smartphone #BonPlan #${plan.provider} #Mobile #Belgique`
+                                  : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !\n\n#JointOffer #ComparaisonPrix #Smartphone #BonPlan #${plan.provider} #Mobile #Belgique`
+                              )}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               onClick={() => {
@@ -438,7 +442,7 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                             <WhatsappShareButton
                               url={`${window.location.origin}/plan/${plan.id}`}
                               title={selectedPhone && selectedPhone.upfrontPrices?.[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]
-                                ? `J'ai trouvé une super offre sur JointOffer : ${selectedPhone.brand} ${selectedPhone.model} à ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€ avec un forfait ${plan.name} à ${plan.price}€/mois !`
+                                ? `J'ai trouvé la meilleure offre pour le ${selectedPhone.brand} ${selectedPhone.model} !\n${plan.price}€/mois avec ${plan.provider} (${plan.name}) - Prix du téléphone : ${selectedPhone.upfrontPrices[plan.provider.toLowerCase() as keyof Smartphone['upfrontPrices']]?.price}€`
                                 : `J'ai trouvé un super forfait sur JointOffer : ${plan.name} à ${plan.price}€/mois !`
                               }
                               onClick={() => {
