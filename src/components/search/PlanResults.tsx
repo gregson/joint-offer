@@ -263,11 +263,11 @@ const PlanResults: React.FC<PlanResultsProps> = ({ plans, selectedPhone }) => {
                     {/* Logo et nom du plan */}
                     <div className="flex items-center gap-3">
                       <Image 
-                        src={`/images/${plan.provider}-logo.svg`}
+                        src={`${process.env.NEXT_PUBLIC_BASE_URL || ''}/images/${plan.provider.toLowerCase()}-logo.svg`}
                         alt={`${plan.provider} logo`}
                         className="h-8 w-auto"
                         width={50}
-                        height={50}
+                        height={32}
                       />
                       <h3 className="text-xl font-bold text-blue-600">{plan.name}</h3>
                     </div>
