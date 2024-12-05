@@ -20,9 +20,24 @@ const nextConfig = {
         protocol: 'https',
         hostname: '**.base.be',
       }
-    ]
+    ],
+    unoptimized: true
   },
   basePath: '',
+  // Ajout de la configuration pour les fichiers statiques
+  async headers() {
+    return [
+      {
+        source: '/images/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
