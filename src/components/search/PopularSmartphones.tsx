@@ -9,13 +9,15 @@ interface PopularSmartphonesProps {
 }
 
 const PopularSmartphones: React.FC<PopularSmartphonesProps> = ({ onSelect }) => {
-  const smartphones = getSmartphones();
+  const smartphones = getSmartphones() || [];
+  console.log('PopularSmartphones - smartphones:', smartphones);
   
   // Sélectionner les smartphones avec plusieurs providers
+  const smartphonesArray = Array.isArray(smartphones) ? smartphones : [];
   const popularPhones = [
-    smartphones.find(phone => phone.id === 'samsung-galaxy-z-fold6-256'),
-    smartphones.find(phone => phone.id === 'xiaomi-14t-pro-512'),
-    smartphones.find(phone => phone.id === 'apple-iphone-15-128')
+    smartphonesArray.find(phone => phone.id === 'samsung-galaxy-z-fold6-256'),
+    smartphonesArray.find(phone => phone.id === 'xiaomi-14t-pro-512'),
+    smartphonesArray.find(phone => phone.id === 'apple-iphone-15-128')
   ].filter((phone): phone is Smartphone => phone !== undefined);
 
   // Fonction pour trouver le prix le plus bas parmi tous les providers

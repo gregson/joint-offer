@@ -5,28 +5,36 @@ import type { SmartphonePriceChangeEmailData } from '../types/emailData';
 import { Provider } from '@/types/priceAlert';
 import smartphonesData from '../data/smartphones.json';
 
-const smartphones = smartphonesData;
+const smartphones = smartphonesData.smartphones;
 
 // Configuration pour l'envoi d'emails
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST || 'smtp.example.com',
+  host: process.env.SMTP_HOST || 'mail.jointoffer.be',
   port: parseInt(process.env.SMTP_PORT || '587'),
   secure: process.env.SMTP_SECURE === 'true',
   auth: {
-    user: process.env.SMTP_USER || 'gregson2@gmail.com',
-    pass: process.env.SMTP_PASS,
+    user: process.env.SMTP_USER || 'infos@jointoffer.be',
+    pass: process.env.SMTP_PASS || 'Jointoffer2024!',
   },
+});
+
+console.log('SMTP Configuration:', {
+  host: process.env.SMTP_HOST || 'mail.jointoffer.be',
+  port: process.env.SMTP_PORT || '587',
+  secure: process.env.SMTP_SECURE || 'false',
+  user: process.env.SMTP_USER || 'infos@jointoffer.be',
+  from: process.env.SMTP_FROM || 'infos@jointoffer.be'
 });
 
 export async function sendSmartphonePriceChangeEmail(data: SmartphonePriceChangeEmailData): Promise<void> {
   const priceChange = data.newPrice - data.oldPrice;
   const priceChangeType = priceChange < 0 ? 'baisse' : 'augmentation';
   const changeAmount = Math.abs(priceChange).toFixed(2);
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://www.jointoffer.be';
   const searchUrl = `${baseUrl}/search?phone=${data.smartphone.id}`;
 
   const mailOptions = {
-    from: process.env.SMTP_FROM,
+    from: process.env.SMTP_FROM || 'infos@jointoffer.be',
     to: data.email,
     subject: `${priceChangeType.charAt(0).toUpperCase() + priceChangeType.slice(1)} de prix - ${data.smartphone.brand} ${data.smartphone.model}`,
     html: `
@@ -53,7 +61,9 @@ export async function sendSmartphonePriceChangeEmail(data: SmartphonePriceChange
   };
 
   try {
+    console.log('Sending email:', mailOptions);
     await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
   } catch (error) {
     console.error('Erreur lors de l\'envoi de l\'email de changement de prix:', error);
     throw error;
@@ -71,7 +81,7 @@ export async function sendWelcomeAlertEmail(
   }
 
   const mailOptions = {
-    from: process.env.SMTP_FROM,
+    from: process.env.SMTP_FROM || 'infos@jointoffer.be',
     to: email,
     subject: `Alerte de prix créée pour ${smartphone.brand} ${smartphone.model}`,
     html: `
@@ -86,7 +96,9 @@ export async function sendWelcomeAlertEmail(
   };
 
   try {
+    console.log('Sending email:', mailOptions);
     await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
   } catch (error) {
     console.error('Erreur lors de l\'envoi de l\'email de confirmation:', error);
     throw error;

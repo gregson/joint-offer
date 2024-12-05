@@ -31,7 +31,12 @@ export function loadPlans(): Plan[] {
 }
 
 export function loadSmartphones(): Smartphone[] {
-  return smartphonesData as Smartphone[];
+  if (!smartphonesData || typeof smartphonesData !== 'object' || !('smartphones' in smartphonesData)) {
+    console.warn('Invalid smartphonesData format:', smartphonesData);
+    return [];
+  }
+  const { smartphones } = smartphonesData as { smartphones: Smartphone[] };
+  return Array.isArray(smartphones) ? smartphones : [];
 }
 
 // Alias pour la compatibilité avec le code existant

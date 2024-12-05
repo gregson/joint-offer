@@ -199,9 +199,9 @@ function matchOrangePhones(phonesMap: Map<string, SmartphoneData>, orangeData: a
 async function mergeSmartphones() {
     try {
         // Lire les fichiers
-        const proximusData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src/data/proximus.json'), 'utf8'));
-        const vooData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src/data/voo.json'), 'utf8')).smartphones;
-        const orangeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'src/data/orange.json'), 'utf8'));
+        const proximusData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/proximus.json'), 'utf8'));
+        const vooData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/voo.json'), 'utf8')).smartphones;
+        const orangeData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/orange.json'), 'utf8'));
 
         // Traiter les données
         const phonesMap = processProximusPhones(proximusData);
@@ -213,8 +213,8 @@ async function mergeSmartphones() {
 
         // Écrire le fichier final
         fs.writeFileSync(
-            path.join(process.cwd(), 'src/data/smartphones.json'),
-            JSON.stringify(smartphones, null, 2)
+            path.join(__dirname, '../data/smartphones.json'),
+            JSON.stringify({ smartphones }, null, 2)
         );
 
         console.log('Fusion des smartphones terminée avec succès !');

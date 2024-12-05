@@ -23,7 +23,7 @@
           "field": "capacity",
           "transform": "storage"
         },
-        "price": "price_sd",
+        "price": "price_jo",
         "image": "image_link",
         "upfrontPrices": {
           "proximus": {
@@ -31,7 +31,17 @@
             "conditions": { "field": "info_dp" },
             "url": { "field": "link" }
           }
-        }
+        },
+        "imageUrl": "image_link",
+        "condition": "info_dp"
+      },
+      "outputMapping": {
+        "brand": "brand",
+        "model": "model",
+        "storage": "storage",
+        "imageUrl": "imageUrl",
+        "price": "upfrontPrices.price",
+        "condition": "upfrontPrices.condition"
       }
     },
     "voo": {
@@ -78,7 +88,17 @@
               "transform": "generateVooUrl"
             }
           }
-        }
+        },
+        "imageUrl": "imageLarge",
+        "condition": "dataOption"
+      },
+      "outputMapping": {
+        "brand": "brand",
+        "model": "model",
+        "storage": "storage",
+        "imageUrl": "imageUrl",
+        "price": "price",
+        "condition": "condition"
       }
     },
     "orange": {
@@ -116,7 +136,17 @@
             "conditions": { "field": "priceRecurringDuration", "suffix": " months" },
             "url": { "field": "href" }
           }
-        }
+        },
+        "imageUrl": "image",
+        "condition": "priceRecurringDuration"
+      },
+      "outputMapping": {
+        "brand": "brand",
+        "model": "model",
+        "storage": "storage",
+        "imageUrl": "imageUrl",
+        "price": "price",
+        "condition": "condition"
       }
     }
   }

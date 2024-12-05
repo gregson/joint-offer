@@ -13,7 +13,8 @@ import type { FilterState } from '@/components/search/PlanFilters';
 import Link from 'next/link';
 import smartphonesData from '@/data/smartphones.json';
 
-const smartphones: Smartphone[] = smartphonesData as Smartphone[];
+// Accéder au tableau de smartphones à partir de l'objet
+const smartphones = smartphonesData.smartphones as Smartphone[];
 
 export default function SearchPage() {
   const searchParams = useSearchParams();

@@ -1,788 +1,788 @@
 {
-    "smartphones": [
+  "smartphones": [
+    {
+      "code": "7379",
+      "baseProductCode": "samsung_galaxy_a55_(5g)_+fit_128gb",
+      "name": "Galaxy A55 (5G) +Fit (128GB)",
+      "imageLarge": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8MTE1NDV8aW1hZ2UvcG5nfGFEY3dMMmd3WlM4NU1EazNNRFUyTnpnd016RTRMekl3TkRNMU15MXNZWEpuWlM1d2JtY3xjMzBkN2I2NmY4ZWI0MzkyYTRhYzcyNzhhNWQxMDhhMDMwMzg1OGYxOGM1NzAyOTlkMDhhNGE4NTEyMTcwZWRm",
+      "imageSmall": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8MzIxODMyfGltYWdlL3BuZ3xhREE0TDJnd1lpODVNRGszTURVMk5qZ3lNREUwTHpJd05ETTFNeTFzWVhKblpTNXdibWN8NTJhMDRiNDk0MWJlNDI4ZTU1NzBkZjMzZTY4ZjA3OWQ3NjdmMmYwYTExZjlmMTAyMzIyZmFmZWY0OTEyN2YxOA",
+      "imageMedium": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8NjM3NDN8aW1hZ2UvcG5nfGFHRm1MMmd3WkM4NU1EazNNRFUyTnpFME56Z3lMekl3TkRNMU15MXNZWEpuWlM1d2JtY3xjYjllZmJiZjZjMmVkN2I2OTkyNTU5YTA5ZDMzZDU5Y2QwNmM1YWFjOWFjNTAxZDlhNGExYjBlZDQzNGI0MWI3",
+      "summary": "Galaxy A55 (5G) +Fit Grey 128GB",
+      "description": "Galaxy A55 (5G) +Fit Grey 128GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#f0f0f0"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "3 Gb",
+      "variants": [],
+      "basePrice": 449,
+      "priceAlteration": 9,
+      "optionPrice": 16,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-A55-FIT-GRY",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7377",
+      "baseProductCode": "apple_iphone_15_128gb",
+      "name": "iPhone 15 (128GB)",
+      "imageLarge": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8ODQzNnxpbWFnZS9wbmd8YURZMkwyZ3laUzg1TURrM01qRXpNalEzTlRFNEx6SXdNems0Tmkxc1lYSm5aUzV3Ym1jfGUzYjA3MDNjMTFmOTI5M2ZhMDJjNWM0NDY0ZDUzYjczNTU3ZjJmMjViOWU0MDg4NWE2NjBmOTJlYjdjM2MxYTU",
+      "imageSmall": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8MjI3NDk4fGltYWdlL3BuZ3xhR05sTDJnek1TODVNRGszTWpFek1UUTVNakUwTHpJd016azROaTFzWVhKblpTNXdibWN8YjlhZDQ3YWZlM2JhY2Y5MDIyZjhkYmIzMmQwMDg1ZDQxZGI2NzFmYWJiMjQzY2NiYTY5YzEwYmRjNjllMmYyMA",
+      "imageMedium": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8NDQ2MjV8aW1hZ2UvcG5nfGFEWTFMMmd6TVM4NU1EazNNakV6TVRneE9UZ3lMekl3TXprNE5pMXNZWEpuWlM1d2JtY3w5NjczNTNhM2MwNTdiY2M1YTBkMjA1MDBiZGI1ZGRjZTdhNmJhOTU1ZDI5YzIyYjdiMzFmYTQ1MTg5NGU1NmFl",
+      "summary": "iPhone 15 Black 128GB",
+      "description": "iPhone 15 Black 128GB",
+      "brandName": "Apple",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "9 Gb",
+      "variants": [],
+      "basePrice": 869,
+      "priceAlteration": 239,
+      "optionPrice": 24,
+      "planPrice": 18,
+      "stockLevelId": "VOO-IPH15-128GB-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7321",
+      "baseProductCode": "xiaomi_redmi_note_13_pro_plus_512gb",
+      "name": "Redmi Note 13 Pro Plus (512 GB)",
+      "imageLarge": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8OTYzN3xpbWFnZS9wbmd8YURGaUwyZzBPQzg1TURrM01qSTNNakEyTmpnMkx6RTVOak0zT0Mxc1lYSm5aUzV3Ym1jfGI5Zjc1OGZmZmQxMzE1ZjUxYTM4MTI0Y2IxZjY5MTEzYzkwNDMzYTdkODU0MzY2ZTZjMzgzOWNmOGY5OWIzNzQ",
+      "imageSmall": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8MTkxODM5fGltYWdlL3BuZ3xhR0l6TDJnME5DODVNRGszTWpJM01UQTRNemd5THpFNU5qTTNPQzFzWVhKblpTNXdibWN8OGE3ZDRhZjZhYWQ5OWQ0OGViZmI5OWZiYzQ5OTY2YjVjNWU2ZTk2ODI2NzkzZjY1ODE4ZWU4OGUxMWNkMTZiOQ",
+      "imageMedium": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8Mzg2MzZ8aW1hZ2UvcG5nfGFERmtMMmcwTlM4NU1EazNNakkzTVRReE1UVXdMekU1TmpNM09DMXNZWEpuWlM1d2JtY3w0M2Q3NGM1MjhhZWQ3NTUyMjM4YWNlYTJkYzcwOTUyN2U0NWMzZTBhYTdkY2RkZWFkNjNmZGM3NWZhMTM4OGM3",
+      "summary": "Redmi Note 13 Pro Plus Black 512 GB",
+      "description": "Redmi Note 13 Pro Plus Black 512 GB",
+      "brandName": "Xiaomi",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "512 Go"
+      ],
+      "dataOption": "3 Gb",
+      "variants": [
         {
-            "code": "7379",
-            "baseProductCode": "samsung_galaxy_a55_(5g)_+fit_128gb",
-            "name": "Galaxy A55 (5G) +Fit (128GB)",
-            "imageLarge": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8MTE1NDV8aW1hZ2UvcG5nfGFEY3dMMmd3WlM4NU1EazNNRFUyTnpnd016RTRMekl3TkRNMU15MXNZWEpuWlM1d2JtY3xjMzBkN2I2NmY4ZWI0MzkyYTRhYzcyNzhhNWQxMDhhMDMwMzg1OGYxOGM1NzAyOTlkMDhhNGE4NTEyMTcwZWRm",
-            "imageSmall": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8MzIxODMyfGltYWdlL3BuZ3xhREE0TDJnd1lpODVNRGszTURVMk5qZ3lNREUwTHpJd05ETTFNeTFzWVhKblpTNXdibWN8NTJhMDRiNDk0MWJlNDI4ZTU1NzBkZjMzZTY4ZjA3OWQ3NjdmMmYwYTExZjlmMTAyMzIyZmFmZWY0OTEyN2YxOA",
-            "imageMedium": "/medias/204353-large.png?context=bWFzdGVyfHJvb3R8NjM3NDN8aW1hZ2UvcG5nfGFHRm1MMmd3WkM4NU1EazNNRFUyTnpFME56Z3lMekl3TkRNMU15MXNZWEpuWlM1d2JtY3xjYjllZmJiZjZjMmVkN2I2OTkyNTU5YTA5ZDMzZDU5Y2QwNmM1YWFjOWFjNTAxZDlhNGExYjBlZDQzNGI0MWI3",
-            "summary": "Galaxy A55 (5G) +Fit Grey 128GB",
-            "description": "Galaxy A55 (5G) +Fit Grey 128GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#f0f0f0"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "3 Gb",
-            "variants": [],
-            "basePrice": 449.0,
-            "priceAlteration": 9.0,
-            "optionPrice": 16.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-A55-FIT-GRY",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7377",
-            "baseProductCode": "apple_iphone_15_128gb",
-            "name": "iPhone 15 (128GB)",
-            "imageLarge": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8ODQzNnxpbWFnZS9wbmd8YURZMkwyZ3laUzg1TURrM01qRXpNalEzTlRFNEx6SXdNems0Tmkxc1lYSm5aUzV3Ym1jfGUzYjA3MDNjMTFmOTI5M2ZhMDJjNWM0NDY0ZDUzYjczNTU3ZjJmMjViOWU0MDg4NWE2NjBmOTJlYjdjM2MxYTU",
-            "imageSmall": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8MjI3NDk4fGltYWdlL3BuZ3xhR05sTDJnek1TODVNRGszTWpFek1UUTVNakUwTHpJd016azROaTFzWVhKblpTNXdibWN8YjlhZDQ3YWZlM2JhY2Y5MDIyZjhkYmIzMmQwMDg1ZDQxZGI2NzFmYWJiMjQzY2NiYTY5YzEwYmRjNjllMmYyMA",
-            "imageMedium": "/medias/203986-large.png?context=bWFzdGVyfHJvb3R8NDQ2MjV8aW1hZ2UvcG5nfGFEWTFMMmd6TVM4NU1EazNNakV6TVRneE9UZ3lMekl3TXprNE5pMXNZWEpuWlM1d2JtY3w5NjczNTNhM2MwNTdiY2M1YTBkMjA1MDBiZGI1ZGRjZTdhNmJhOTU1ZDI5YzIyYjdiMzFmYTQ1MTg5NGU1NmFl",
-            "summary": "iPhone 15 Black 128GB",
-            "description": "iPhone 15 Black 128GB",
-            "brandName": "Apple",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "9 Gb",
-            "variants": [],
-            "basePrice": 869.0,
-            "priceAlteration": 239.0,
-            "optionPrice": 24.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-IPH15-128GB-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7321",
-            "baseProductCode": "xiaomi_redmi_note_13_pro_plus_512gb",
-            "name": "Redmi Note 13 Pro Plus (512 GB)",
-            "imageLarge": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8OTYzN3xpbWFnZS9wbmd8YURGaUwyZzBPQzg1TURrM01qSTNNakEyTmpnMkx6RTVOak0zT0Mxc1lYSm5aUzV3Ym1jfGI5Zjc1OGZmZmQxMzE1ZjUxYTM4MTI0Y2IxZjY5MTEzYzkwNDMzYTdkODU0MzY2ZTZjMzgzOWNmOGY5OWIzNzQ",
-            "imageSmall": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8MTkxODM5fGltYWdlL3BuZ3xhR0l6TDJnME5DODVNRGszTWpJM01UQTRNemd5THpFNU5qTTNPQzFzWVhKblpTNXdibWN8OGE3ZDRhZjZhYWQ5OWQ0OGViZmI5OWZiYzQ5OTY2YjVjNWU2ZTk2ODI2NzkzZjY1ODE4ZWU4OGUxMWNkMTZiOQ",
-            "imageMedium": "/medias/196378-large.png?context=bWFzdGVyfHJvb3R8Mzg2MzZ8aW1hZ2UvcG5nfGFERmtMMmcwTlM4NU1EazNNakkzTVRReE1UVXdMekU1TmpNM09DMXNZWEpuWlM1d2JtY3w0M2Q3NGM1MjhhZWQ3NTUyMjM4YWNlYTJkYzcwOTUyN2U0NWMzZTBhYTdkY2RkZWFkNjNmZGM3NWZhMTM4OGM3",
-            "summary": "Redmi Note 13 Pro Plus Black 512 GB",
-            "description": "Redmi Note 13 Pro Plus Black 512 GB",
-            "brandName": "Xiaomi",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "512 Go"
-            ],
-            "dataOption": "3 Gb",
-            "variants": [
-                {
-                    "code": "7322",
-                    "baseProductCode": "xiaomi_redmi_note_13_pro_plus_512gb",
-                    "name": "Redmi Note 13 Pro Plus (512 GB)",
-                    "imageLarge": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8MTAxNDF8aW1hZ2UvcG5nfGFHUTVMMmd5WlM4NU1EazNNakl4TXpReE1qRTBMekU1TmpNMU5TMXNZWEpuWlM1d2JtY3xkOTJlMTBhNTRmNzNhODEwYWFmN2ZjZjg1MzMxNTU1MzUzZDMxNjU0MmEwNzRmMGJkMzA0ZmIxN2M4MmQwN2Rl",
-                    "imageSmall": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8MjAxNjQ4fGltYWdlL3BuZ3xhRFF4TDJnek1pODVNRGszTWpJeE1qUXlPVEV3THpFNU5qTTFOUzFzWVhKblpTNXdibWN8OWMzMjFhNDc5YzI5YjM3N2NmYTM2ZTRlN2U1YjNkYTUyOTRmMjI3YWYzOTE3MmZkMWRhNDNlZTY2ZmQ5YmMwYg",
-                    "imageMedium": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8NDAzMzl8aW1hZ2UvcG5nfGFHVmhMMmd6TVM4NU1EazNNakl4TWpjMU5qYzRMekU1TmpNMU5TMXNZWEpuWlM1d2JtY3w3MDc4NzBjZTJjNWRjMjA1OTEwMDA2MjY3NDMyNDhhMjMwMmVjNTRkMmQ5MzA5M2JkMjdhMGI1N2VkZTQ2YmRk",
-                    "summary": "Redmi Note 13 Pro Plus Purple 512 GB",
-                    "description": "Redmi Note 13 Pro Plus Purple 512 GB",
-                    "brandName": "Xiaomi",
-                    "currency": "EUR",
-                    "inStockFlag": false,
-                    "colorName": null,
-                    "colorCode": [
-                        "#EE82EE"
-                    ],
-                    "storage": [
-                        "512 Go"
-                    ],
-                    "dataOption": "3 Gb",
-                    "variants": null,
-                    "basePrice": 499.0,
-                    "priceAlteration": 9.0,
-                    "optionPrice": 16.0,
-                    "planPrice": 18.0,
-                    "stockLevelId": "VOO-XINOT13PRO+-PRP",
-                    "topSellingSmartphone": [
-                        false
-                    ]
-                }
-            ],
-            "basePrice": 499.0,
-            "priceAlteration": 9.0,
-            "optionPrice": 16.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-XINOT13PRO+-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7300",
-            "baseProductCode": "samsung_galaxy_s24_ultra_256gb",
-            "name": "Galaxy S24 Ultra (256 GB)",
-            "imageLarge": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8ODUyM3xpbWFnZS9wbmd8YURsbEwyaG1OeTg1TURrM01qRTJNRFkxTlRZMkx6RTVOalF3TWkxc1lYSm5aUzV3Ym1jfDM0MWRlZmIxOTFmOGU1YjMzNzU1OWQ1ZTU4ZjFkNTAzZjIyMzQ5OWVjNGIwY2Q2Y2QzZjM4NGYzYWFmNWQ2YmY",
-            "imageSmall": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8MjI1MDI2fGltYWdlL3BuZ3xhRFJsTDJoaVpDODVNRGszTWpFMU9UWTNNall5THpFNU5qUXdNaTFzWVhKblpTNXdibWN8ZWU2ZjYyODk3MDY1YzRmODc3OTFhMDdiNjgzY2M0NTJkZDE1M2Y1MDIzODM3ODUxNmNjOTcyNDEyODM0OGNlYQ",
-            "imageMedium": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8NDUwNDJ8aW1hZ2UvcG5nfGFEUmpMMmhtT0M4NU1EazNNakUyTURBd01ETXdMekU1TmpRd01pMXNZWEpuWlM1d2JtY3wzNjhjYjQwY2FhN2M1YzNjNWVmZDJkOTVkZjk3OWEyNDY0N2I0MjljYjc4MDMzMjljNDZiYmQ0ODQyZmM5MTZl",
-            "summary": "Galaxy S24 Ultra Black 256 GB",
-            "description": "Galaxy S24 Ultra Black 256 GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "256 Go"
-            ],
-            "dataOption": "20 Gb",
-            "variants": [],
-            "basePrice": 1449.0,
-            "priceAlteration": 459.0,
-            "optionPrice": 38.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-S24ULTRA-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7344",
-            "baseProductCode": "apple_iphone_13_refurb_128gb",
-            "name": "iPhone 13 refurb (128 GB)",
-            "imageLarge": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8ODA3NnxpbWFnZS9wbmd8YURFekwyZzFNQzg1TURrM01qQTJOekkyTmpnMkx6RTVOemd4Tmkxc1lYSm5aUzV3Ym1jfDQwZTg3OTU3ZTM2ZjgyNTBmYmJkNWIwY2NhNjRhMzc4NDQwMDEwZWFjODc4NmI0ZjY3MDk0Nzc0NmNkNmNjZjI",
-            "imageSmall": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8MjE5NTg3fGltYWdlL3BuZ3xhR0ZpTDJnMFl5ODVNRGszTWpBMk5qSTRNemd5THpFNU56Z3hOaTFzWVhKblpTNXdibWN8YzI0YWNjNmZkMTQxZDAyM2JiNGVmNjNiOTllMjcwZWY5ZmQyYzY4OGYwOGUzY2U0MDgxZTkzM2UwNTU5ZTU1MQ",
-            "imageMedium": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8NDE5NDV8aW1hZ2UvcG5nfGFERTFMMmcwWkM4NU1EazNNakEyTmpZeE1UVXdMekU1TnpneE5pMXNZWEpuWlM1d2JtY3xkMmFmYzdmYWU4OWQyZDkyYmIyYmVhY2FkNWE3YzA2NTNkY2FjNGVjZjIyNGU3MjhiMWQ2ZDM0OGU1NTIyN2Y0",
-            "summary": "iPhone 13 refurb Black 128 GB",
-            "description": "iPhone 13 refurb Black 128 GB",
-            "brandName": "Apple",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "9 Gb",
-            "variants": [],
-            "basePrice": 539.0,
-            "priceAlteration": 19.0,
-            "optionPrice": 24.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-REAIPH13-128-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7318",
-            "baseProductCode": "xiaomi_redmi_note_13_pro_256gb",
-            "name": "Redmi Note 13 Pro (256 GB)",
-            "imageLarge": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8OTA1MnxpbWFnZS9wbmd8YUdVMEwyZzRaUzg1TURrM01qSTFNVEE1TlRNMEx6RTVOak00TWkxc1lYSm5aUzV3Ym1jfDJkNDE3YmQ5YjUwNTU5NWRlYWY1MjViZGIzYmY3YjQxNDZiYzY1NmRhYTJlYzhlNDI4Njk4OGNjMDBkZGExMjI",
-            "imageSmall": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8MTU5NjcwfGltYWdlL3BuZ3xhRE01TDJnNU1pODVNRGszTWpJMU1ERXhNak13THpFNU5qTTRNaTFzWVhKblpTNXdibWN8MWViZjVlYzhhMWMyY2Y2YmVlNWYxMTk2Y2EzMGY3Mzc4OGM3MmRjYzk5NzRkNTVkZGU0NzgwZTQ5MTVjODZjZA",
-            "imageMedium": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8MzQzODl8aW1hZ2UvcG5nfGFHVXlMMmc1TVM4NU1EazNNakkxTURRek9UazRMekU1TmpNNE1pMXNZWEpuWlM1d2JtY3wxYTRmYTNlYTg4NWZiYWQ4NWIxOWVkYTE3MmRkNTJhNWJlYTliZDYwMGM2YWVmODk5Yjc0YTc0ZmQyNjAyZjlm",
-            "summary": "Redmi Note 13 Pro Black 256 GB",
-            "description": "Redmi Note 13 Pro Black 256 GB",
-            "brandName": "Xiaomi",
-            "currency": "EUR",
-            "inStockFlag": false,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "256 Go"
-            ],
-            "dataOption": "3 Gb",
-            "variants": [],
-            "basePrice": 399.0,
-            "priceAlteration": 1.0,
-            "optionPrice": 16.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-XINOT13PRO5G-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7355",
-            "baseProductCode": "samsung_galaxy_a35_128gb",
-            "name": "Galaxy A35 (128 GB)",
-            "imageLarge": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8ODMxN3xpbWFnZS9wbmd8YUdNNEwyaGlOeTg1TURrM01EVTVOall6T1RBeUx6RTVOemN5TkMxc1lYSm5aUzV3Ym1jfDUwZGQ4NWU5YzdhMGIxOGZjOWYyOWZiYTU1NTdlYTM5ZDgxNGNhNTQwYjAxMzk2OWNiNTIwNGJkOGJiMGVmNGI",
-            "imageSmall": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8Mjc3NjMzfGltYWdlL3BuZ3xhRE13TDJoaVlpODVNRGszTURVNU5UWTFOVGs0THpFNU56Y3lOQzFzWVhKblpTNXdibWN8ZmUwNmY1YjRjMWNjYTcwZWIxODc4YWE1MzI5MTJhYWNjZDk0NWQyMTcwMzliN2NiMjA0ODUxY2EzOTkxNTIxMw",
-            "imageMedium": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8NDgxNzZ8aW1hZ2UvcG5nfGFHUTVMMmhpWVM4NU1EazNNRFU1TlRrNE16WTJMekU1TnpjeU5DMXNZWEpuWlM1d2JtY3w0ODY5NzU1MGU5NTk4MjRiZjU1NTE1MmE4ZmVmYWI2ZjNhODA2NDRjYTQ0NGJkM2MwZmEzM2ZhOWI5Y2UwZjY0",
-            "summary": "Galaxy A35 Blue 128 GB",
-            "description": "Galaxy A35 Blue 128 GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#2C75FF"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "3 Gb",
-            "variants": [],
-            "basePrice": 329.0,
-            "priceAlteration": 1.0,
-            "optionPrice": 16.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-A35-BLU",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7352",
-            "baseProductCode": "samsung_galaxy_a15_4g_128gb",
-            "name": "Galaxy A15 4G (128 GB)",
-            "imageLarge": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8MTA5NDN8aW1hZ2UvcG5nfGFEWXlMMmcyWkM4NU1EazNNRFl6TXpNek9URTRMekU1TmpReU5DMXNZWEpuWlM1d2JtY3xmNGRiYTI1OWNjMzBkNzdmZTczOWQyYmEwYjAwNDdkMDMyZGQzODI5MGRkZTNlYTQ2Y2EzYmYxYzg2NzgyMGM3",
-            "imageSmall": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8MjM5MDA4fGltYWdlL3BuZ3xhR05oTDJnM01DODVNRGszTURZek1qTTFOakUwTHpFNU5qUXlOQzFzWVhKblpTNXdibWN8NzBjZmQ4MWY4NzY5NWNiMGY1NmRmNjk4MTRmNzg5MzU5MmYwNWM5NTgzNGMzNjY5YWY5ZTQwZGI1ODcwZmNkNQ",
-            "imageMedium": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8NTIxMTV8aW1hZ2UvcG5nfGFEY3pMMmczTUM4NU1EazNNRFl6TWpZNE16Z3lMekU1TmpReU5DMXNZWEpuWlM1d2JtY3wyM2EzYjc1MmU0Mzk5NzlkZmJkNDVhOWNhY2Y1ZWIwZDc4ZTUzZTU3YmZiYWM5MjgyNGY0OTBiMDRlYjFhMDNj",
-            "summary": "Galaxy A15 4G Black 128 GB",
-            "description": "Galaxy A15 4G Black 128 GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": false,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "1 Gb",
-            "variants": [],
-            "basePrice": 169.0,
-            "priceAlteration": 59.0,
-            "optionPrice": 6.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-A15-4G-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7383",
-            "baseProductCode": "apple_iphone_14_128gb",
-            "name": "iPhone 14 (128GB)",
-            "imageLarge": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8MTA2OTN8aW1hZ2UvcG5nfGFERmxMMmhoT1M4NU1EazNNakEzTWpVd09UYzBMekU1TmpZd09TMXNZWEpuWlM1d2JtY3wxYmIyZjgyM2E0YjE3ZTdlZmM3YWEwODhhYzk5YjZhM2JiYThjMzNhZTc4MDZiZjA5ODBiYmJmN2Q3NTA0YTlh",
-            "imageSmall": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8MjczODEyfGltYWdlL3BuZ3xhR0kyTDJoaE5TODVNRGszTWpBM01UVXlOamN3THpFNU5qWXdPUzFzWVhKblpTNXdibWN8NzA2NTc0NzJiMWNkMmMwOWEzYWU1Nzc3NWQ3MjQ3MzYyZjY3NmYwNTdmNzM2Y2Y2ZmY0OWVmZDQzMmE4OTcwYg",
-            "imageMedium": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8NTczMDR8aW1hZ2UvcG5nfGFEQmtMMmhoTmk4NU1EazNNakEzTVRnMU5ETTRMekU1TmpZd09TMXNZWEpuWlM1d2JtY3w5YmU5ZGY5YTBlNjkwNzk4OTNmMzIwOTZmYTUyYWVlMmM5MWY3MDhiOGMxNTg4NWM0ODBkMGZkOGZmMWFiOTZk",
-            "summary": "iPhone 14 Blue 128GB",
-            "description": "iPhone 14 Blue 128GB",
-            "brandName": "Apple",
-            "currency": "EUR",
-            "inStockFlag": false,
-            "colorName": null,
-            "colorCode": [
-                "#2C75FF"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "9 Gb",
-            "variants": [
-                {
-                    "code": "7382",
-                    "baseProductCode": "apple_iphone_14_128gb",
-                    "name": "iPhone 14 (128GB)",
-                    "imageLarge": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8ODk3MHxpbWFnZS9wbmd8YUdaa0wyZzVOeTg1TURrM01qRXlNalkwTkRjNEx6RTVPVEU1T0Mxc1lYSm5aUzV3Ym1jfDY5YWRjYjljOTBhZmIyNjk1N2VlMzY3NmMxNGYzY2I0YWYyOTM5ZjNmZGYwYWUwZDNkZWViNzU4MDlmY2M0Nzk",
-                    "imageSmall": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8MjIyMjE1fGltYWdlL3BuZ3xhRFkxTDJnNVlpODVNRGszTWpFeU1UWTJNVGMwTHpFNU9URTVPQzFzWVhKblpTNXdibWN8NzQ2NjM0YTRlYmI0MjU2MjljNjdhMzYwOTExZmQ1ZTE5NjdlMDhlOWNjNjZhMjcwYjE1YTUwNTA3YmNiMjE0Nw",
-                    "imageMedium": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8NDc2MzN8aW1hZ2UvcG5nfGFEQm1MMmc1WWk4NU1EazNNakV5TVRrNE9UUXlMekU1T1RFNU9DMXNZWEpuWlM1d2JtY3xkZWM1ZWU4OTcyMzRlODlhNTllYzg2NDZlOWY2ZTRhMmI2ZTU4OWJkZGEwMTMxYmZlZDlhNmY2NDIxZWUzNWYy",
-                    "summary": "iPhone 14 Black 128GB",
-                    "description": "iPhone 14 Black 128GB",
-                    "brandName": "Apple",
-                    "currency": "EUR",
-                    "inStockFlag": true,
-                    "colorName": null,
-                    "colorCode": [
-                        "#000000"
-                    ],
-                    "storage": [
-                        "128 Go"
-                    ],
-                    "dataOption": "9 Gb",
-                    "variants": null,
-                    "basePrice": 689.0,
-                    "priceAlteration": 79.0,
-                    "optionPrice": 24.0,
-                    "planPrice": 18.0,
-                    "stockLevelId": "VOO-IPH14-128GB-BLK",
-                    "topSellingSmartphone": [
-                        false
-                    ]
-                }
-            ],
-            "basePrice": 689.0,
-            "priceAlteration": 79.0,
-            "optionPrice": 24.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-IPH14-128GB-BLU",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7378",
-            "baseProductCode": "samsung_galaxy_a16_128gb",
-            "name": "Galaxy A16 (128GB)",
-            "imageLarge": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8MTA0MDl8aW1hZ2UvcG5nfGFEUmtMMmhoT1M4NU1EazNNakF5TnpZeE56VTRMekl3TkRVNE1DMXNZWEpuWlM1d2JtY3xmZjExZDI2YTY4MmVkZTMwNjYwZGUzNWQ3MDJkMTgwMzViZDBmOWNjNTYwMjZjNjkyMzNmYjlmMGE4YTUwZjFj",
-            "imageSmall": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8MjIyNTgzfGltYWdlL3BuZ3xhR1EwTDJoaE1pODVNRGszTWpBeU5UazNPVEU0THpJd05EVTRNQzFzWVhKblpTNXdibWN8Nzg4M2MxOTc0ZGU0ZjA2OTUxOGEzYTk0YTQ1ODJmZWJlYzUxMjZhNjM1ODUwODcxYmFlN2UzNjI1ZTk4YTk4MA",
-            "imageMedium": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8NTIzOTh8aW1hZ2UvcG5nfGFHVTFMMmhoTlM4NU1EazNNakF5TmpZek5EVTBMekl3TkRVNE1DMXNZWEpuWlM1d2JtY3xmYTZiNGJhODc2ODQzY2NlOWNhMGNmNmI2NjBkNGNlOTdlMjE2NDBlMTY5YzMxZDQxYWRmNTNiNDMzYzZjNzdi",
-            "summary": "Galaxy A16 Black 128GB",
-            "description": "Galaxy A16 Black 128GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "1 Gb",
-            "variants": [],
-            "basePrice": 199.0,
-            "priceAlteration": 89.0,
-            "optionPrice": 6.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-A16-4G-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7374",
-            "baseProductCode": "samsung_galaxy_s24_128gb",
-            "name": "Galaxy S24 (128 GB)",
-            "imageLarge": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8MTg2OTl8aW1hZ2UvcG5nfGFEWXdMMmcwWXk4NU1EazNNakU1TWpRME1EWXlMekU1TmpNNU5pMXNZWEpuWlM1d2JtY3xhOTA5NGYyMjhlZTA5ZjMxY2NmOGQ0MzcxOGQ4ZDM3NTlkM2E0ZWYzMTg4YzU2MzNhODU0MDI4MTA0NTg2N2M5",
-            "imageSmall": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8NzQ5ODQ5fGltYWdlL3BuZ3xhR1k0TDJnME9DODVNRGszTWpFNU1UUTFOelU0THpFNU5qTTVOaTFzWVhKblpTNXdibWN8OTBkZjY4MWYwY2JkZjk1NzUzZjUzYzQyZDI5MWNmOWI3OTMzNzI5MzhhYzIxMTQyNGU1ZDIyODFmM2JkNzg0OQ",
-            "imageMedium": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8MTI5MTY4fGltYWdlL3BuZ3xhRFJtTDJnME9TODVNRGszTWpFNU1UYzROVEkyTHpFNU5qTTVOaTFzWVhKblpTNXdibWN8MzkyMTIxZjg0NWJkZmYwZDkwYWQxN2QxOGUwMWE5ZjYzOWQ1NDI0NTYxZDA4OGVjZTBmYmEyZDliNTBmOWUwYg",
-            "summary": "Galaxy S24 Black 128 GB",
-            "description": "Galaxy S24 Black 128 GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#000000"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "20 Gb",
-            "variants": [],
-            "basePrice": 899.0,
-            "priceAlteration": 9.0,
-            "optionPrice": 38.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-S24-BLK",
-            "topSellingSmartphone": [
-                false
-            ]
-        },
-        {
-            "code": "7376",
-            "baseProductCode": "samsung_galaxy_a55_128gb",
-            "name": "Galaxy A55 (128 GB)",
-            "imageLarge": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8OTY4MnxpbWFnZS9wbmd8YURSakwyZ3paaTg1TURrM01qQXhOelExT1RVd0x6RTVOemN6TUMxc1lYSm5aUzV3Ym1jfDUzOWE2YTFlZjJkOWNmN2Q2ZWM4ODgwOTAyYjk3NGIzY2E3YzdjYjM3MGZjNWE1YTY4YmNkZmQ2ODg5ZTMxZDA",
-            "imageSmall": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8MzEwODkwfGltYWdlL3BuZ3xhR1UwTDJnellpODVNRGszTWpBeE5qUTNOalEyTHpFNU56Y3pNQzFzWVhKblpTNXdibWN8OWExMmYxMjdmODkzZDQxOGNlN2UwMjYzZGVkZDFjYWQ3ZTZiYmE5ZjRlYTg4ZmY2M2UxNjE2YWE2ZGM0MWY4Yw",
-            "imageMedium": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8NTU5MDh8aW1hZ2UvcG5nfGFEUmxMMmd6WXk4NU1EazNNakF4Tmpnd05ERTBMekU1Tnpjek1DMXNZWEpuWlM1d2JtY3w5YzllOTk4YWU5YTg2NjVmYTNhMTY0NGI0YjAxYTBiZmFjOGE5YjBmZGE3Y2NjMmRmNDYxMjJjYmFhMmU2MWE2",
-            "summary": "Galaxy A55 Blue 128 GB",
-            "description": "Galaxy A55 Blue 128 GB",
-            "brandName": "Samsung",
-            "currency": "EUR",
-            "inStockFlag": true,
-            "colorName": null,
-            "colorCode": [
-                "#2C75FF"
-            ],
-            "storage": [
-                "128 Go"
-            ],
-            "dataOption": "0 Gb",
-            "variants": [],
-            "basePrice": 399.0,
-            "priceAlteration": 299.0,
-            "optionPrice": 0.0,
-            "planPrice": 18.0,
-            "stockLevelId": "VOO-SAM-A55-BLU",
-            "topSellingSmartphone": [
-                false
-            ]
+          "code": "7322",
+          "baseProductCode": "xiaomi_redmi_note_13_pro_plus_512gb",
+          "name": "Redmi Note 13 Pro Plus (512 GB)",
+          "imageLarge": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8MTAxNDF8aW1hZ2UvcG5nfGFHUTVMMmd5WlM4NU1EazNNakl4TXpReE1qRTBMekU1TmpNMU5TMXNZWEpuWlM1d2JtY3xkOTJlMTBhNTRmNzNhODEwYWFmN2ZjZjg1MzMxNTU1MzUzZDMxNjU0MmEwNzRmMGJkMzA0ZmIxN2M4MmQwN2Rl",
+          "imageSmall": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8MjAxNjQ4fGltYWdlL3BuZ3xhRFF4TDJnek1pODVNRGszTWpJeE1qUXlPVEV3THpFNU5qTTFOUzFzWVhKblpTNXdibWN8OWMzMjFhNDc5YzI5YjM3N2NmYTM2ZTRlN2U1YjNkYTUyOTRmMjI3YWYzOTE3MmZkMWRhNDNlZTY2ZmQ5YmMwYg",
+          "imageMedium": "/medias/196355-large.png?context=bWFzdGVyfHJvb3R8NDAzMzl8aW1hZ2UvcG5nfGFHVmhMMmd6TVM4NU1EazNNakl4TWpjMU5qYzRMekU1TmpNMU5TMXNZWEpuWlM1d2JtY3w3MDc4NzBjZTJjNWRjMjA1OTEwMDA2MjY3NDMyNDhhMjMwMmVjNTRkMmQ5MzA5M2JkMjdhMGI1N2VkZTQ2YmRk",
+          "summary": "Redmi Note 13 Pro Plus Purple 512 GB",
+          "description": "Redmi Note 13 Pro Plus Purple 512 GB",
+          "brandName": "Xiaomi",
+          "currency": "EUR",
+          "inStockFlag": false,
+          "colorName": null,
+          "colorCode": [
+            "#EE82EE"
+          ],
+          "storage": [
+            "512 Go"
+          ],
+          "dataOption": "3 Gb",
+          "variants": null,
+          "basePrice": 499,
+          "priceAlteration": 9,
+          "optionPrice": 16,
+          "planPrice": 18,
+          "stockLevelId": "VOO-XINOT13PRO+-PRP",
+          "topSellingSmartphone": [
+            false
+          ]
         }
-    ],
-    "facets": [
+      ],
+      "basePrice": 499,
+      "priceAlteration": 9,
+      "optionPrice": 16,
+      "planPrice": 18,
+      "stockLevelId": "VOO-XINOT13PRO+-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7300",
+      "baseProductCode": "samsung_galaxy_s24_ultra_256gb",
+      "name": "Galaxy S24 Ultra (256 GB)",
+      "imageLarge": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8ODUyM3xpbWFnZS9wbmd8YURsbEwyaG1OeTg1TURrM01qRTJNRFkxTlRZMkx6RTVOalF3TWkxc1lYSm5aUzV3Ym1jfDM0MWRlZmIxOTFmOGU1YjMzNzU1OWQ1ZTU4ZjFkNTAzZjIyMzQ5OWVjNGIwY2Q2Y2QzZjM4NGYzYWFmNWQ2YmY",
+      "imageSmall": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8MjI1MDI2fGltYWdlL3BuZ3xhRFJsTDJoaVpDODVNRGszTWpFMU9UWTNNall5THpFNU5qUXdNaTFzWVhKblpTNXdibWN8ZWU2ZjYyODk3MDY1YzRmODc3OTFhMDdiNjgzY2M0NTJkZDE1M2Y1MDIzODM3ODUxNmNjOTcyNDEyODM0OGNlYQ",
+      "imageMedium": "/medias/196402-large.png?context=bWFzdGVyfHJvb3R8NDUwNDJ8aW1hZ2UvcG5nfGFEUmpMMmhtT0M4NU1EazNNakUyTURBd01ETXdMekU1TmpRd01pMXNZWEpuWlM1d2JtY3wzNjhjYjQwY2FhN2M1YzNjNWVmZDJkOTVkZjk3OWEyNDY0N2I0MjljYjc4MDMzMjljNDZiYmQ0ODQyZmM5MTZl",
+      "summary": "Galaxy S24 Ultra Black 256 GB",
+      "description": "Galaxy S24 Ultra Black 256 GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "256 Go"
+      ],
+      "dataOption": "20 Gb",
+      "variants": [],
+      "basePrice": 1449,
+      "priceAlteration": 459,
+      "optionPrice": 38,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-S24ULTRA-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7344",
+      "baseProductCode": "apple_iphone_13_refurb_128gb",
+      "name": "iPhone 13 refurb (128 GB)",
+      "imageLarge": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8ODA3NnxpbWFnZS9wbmd8YURFekwyZzFNQzg1TURrM01qQTJOekkyTmpnMkx6RTVOemd4Tmkxc1lYSm5aUzV3Ym1jfDQwZTg3OTU3ZTM2ZjgyNTBmYmJkNWIwY2NhNjRhMzc4NDQwMDEwZWFjODc4NmI0ZjY3MDk0Nzc0NmNkNmNjZjI",
+      "imageSmall": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8MjE5NTg3fGltYWdlL3BuZ3xhR0ZpTDJnMFl5ODVNRGszTWpBMk5qSTRNemd5THpFNU56Z3hOaTFzWVhKblpTNXdibWN8YzI0YWNjNmZkMTQxZDAyM2JiNGVmNjNiOTllMjcwZWY5ZmQyYzY4OGYwOGUzY2U0MDgxZTkzM2UwNTU5ZTU1MQ",
+      "imageMedium": "/medias/197816-large.png?context=bWFzdGVyfHJvb3R8NDE5NDV8aW1hZ2UvcG5nfGFERTFMMmcwWkM4NU1EazNNakEyTmpZeE1UVXdMekU1TnpneE5pMXNZWEpuWlM1d2JtY3xkMmFmYzdmYWU4OWQyZDkyYmIyYmVhY2FkNWE3YzA2NTNkY2FjNGVjZjIyNGU3MjhiMWQ2ZDM0OGU1NTIyN2Y0",
+      "summary": "iPhone 13 refurb Black 128 GB",
+      "description": "iPhone 13 refurb Black 128 GB",
+      "brandName": "Apple",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "9 Gb",
+      "variants": [],
+      "basePrice": 539,
+      "priceAlteration": 19,
+      "optionPrice": 24,
+      "planPrice": 18,
+      "stockLevelId": "VOO-REAIPH13-128-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7318",
+      "baseProductCode": "xiaomi_redmi_note_13_pro_256gb",
+      "name": "Redmi Note 13 Pro (256 GB)",
+      "imageLarge": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8OTA1MnxpbWFnZS9wbmd8YUdVMEwyZzRaUzg1TURrM01qSTFNVEE1TlRNMEx6RTVOak00TWkxc1lYSm5aUzV3Ym1jfDJkNDE3YmQ5YjUwNTU5NWRlYWY1MjViZGIzYmY3YjQxNDZiYzY1NmRhYTJlYzhlNDI4Njk4OGNjMDBkZGExMjI",
+      "imageSmall": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8MTU5NjcwfGltYWdlL3BuZ3xhRE01TDJnNU1pODVNRGszTWpJMU1ERXhNak13THpFNU5qTTRNaTFzWVhKblpTNXdibWN8MWViZjVlYzhhMWMyY2Y2YmVlNWYxMTk2Y2EzMGY3Mzc4OGM3MmRjYzk5NzRkNTVkZGU0NzgwZTQ5MTVjODZjZA",
+      "imageMedium": "/medias/196382-large.png?context=bWFzdGVyfHJvb3R8MzQzODl8aW1hZ2UvcG5nfGFHVXlMMmc1TVM4NU1EazNNakkxTURRek9UazRMekU1TmpNNE1pMXNZWEpuWlM1d2JtY3wxYTRmYTNlYTg4NWZiYWQ4NWIxOWVkYTE3MmRkNTJhNWJlYTliZDYwMGM2YWVmODk5Yjc0YTc0ZmQyNjAyZjlm",
+      "summary": "Redmi Note 13 Pro Black 256 GB",
+      "description": "Redmi Note 13 Pro Black 256 GB",
+      "brandName": "Xiaomi",
+      "currency": "EUR",
+      "inStockFlag": false,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "256 Go"
+      ],
+      "dataOption": "3 Gb",
+      "variants": [],
+      "basePrice": 399,
+      "priceAlteration": 1,
+      "optionPrice": 16,
+      "planPrice": 18,
+      "stockLevelId": "VOO-XINOT13PRO5G-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7355",
+      "baseProductCode": "samsung_galaxy_a35_128gb",
+      "name": "Galaxy A35 (128 GB)",
+      "imageLarge": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8ODMxN3xpbWFnZS9wbmd8YUdNNEwyaGlOeTg1TURrM01EVTVOall6T1RBeUx6RTVOemN5TkMxc1lYSm5aUzV3Ym1jfDUwZGQ4NWU5YzdhMGIxOGZjOWYyOWZiYTU1NTdlYTM5ZDgxNGNhNTQwYjAxMzk2OWNiNTIwNGJkOGJiMGVmNGI",
+      "imageSmall": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8Mjc3NjMzfGltYWdlL3BuZ3xhRE13TDJoaVlpODVNRGszTURVNU5UWTFOVGs0THpFNU56Y3lOQzFzWVhKblpTNXdibWN8ZmUwNmY1YjRjMWNjYTcwZWIxODc4YWE1MzI5MTJhYWNjZDk0NWQyMTcwMzliN2NiMjA0ODUxY2EzOTkxNTIxMw",
+      "imageMedium": "/medias/197724-large.png?context=bWFzdGVyfHJvb3R8NDgxNzZ8aW1hZ2UvcG5nfGFHUTVMMmhpWVM4NU1EazNNRFU1TlRrNE16WTJMekU1TnpjeU5DMXNZWEpuWlM1d2JtY3w0ODY5NzU1MGU5NTk4MjRiZjU1NTE1MmE4ZmVmYWI2ZjNhODA2NDRjYTQ0NGJkM2MwZmEzM2ZhOWI5Y2UwZjY0",
+      "summary": "Galaxy A35 Blue 128 GB",
+      "description": "Galaxy A35 Blue 128 GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#2C75FF"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "3 Gb",
+      "variants": [],
+      "basePrice": 329,
+      "priceAlteration": 1,
+      "optionPrice": 16,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-A35-BLU",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7352",
+      "baseProductCode": "samsung_galaxy_a15_4g_128gb",
+      "name": "Galaxy A15 4G (128 GB)",
+      "imageLarge": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8MTA5NDN8aW1hZ2UvcG5nfGFEWXlMMmcyWkM4NU1EazNNRFl6TXpNek9URTRMekU1TmpReU5DMXNZWEpuWlM1d2JtY3xmNGRiYTI1OWNjMzBkNzdmZTczOWQyYmEwYjAwNDdkMDMyZGQzODI5MGRkZTNlYTQ2Y2EzYmYxYzg2NzgyMGM3",
+      "imageSmall": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8MjM5MDA4fGltYWdlL3BuZ3xhR05oTDJnM01DODVNRGszTURZek1qTTFOakUwTHpFNU5qUXlOQzFzWVhKblpTNXdibWN8NzBjZmQ4MWY4NzY5NWNiMGY1NmRmNjk4MTRmNzg5MzU5MmYwNWM5NTgzNGMzNjY5YWY5ZTQwZGI1ODcwZmNkNQ",
+      "imageMedium": "/medias/196424-large.png?context=bWFzdGVyfHJvb3R8NTIxMTV8aW1hZ2UvcG5nfGFEY3pMMmczTUM4NU1EazNNRFl6TWpZNE16Z3lMekU1TmpReU5DMXNZWEpuWlM1d2JtY3wyM2EzYjc1MmU0Mzk5NzlkZmJkNDVhOWNhY2Y1ZWIwZDc4ZTUzZTU3YmZiYWM5MjgyNGY0OTBiMDRlYjFhMDNj",
+      "summary": "Galaxy A15 4G Black 128 GB",
+      "description": "Galaxy A15 4G Black 128 GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": false,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "1 Gb",
+      "variants": [],
+      "basePrice": 169,
+      "priceAlteration": 59,
+      "optionPrice": 6,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-A15-4G-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7383",
+      "baseProductCode": "apple_iphone_14_128gb",
+      "name": "iPhone 14 (128GB)",
+      "imageLarge": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8MTA2OTN8aW1hZ2UvcG5nfGFERmxMMmhoT1M4NU1EazNNakEzTWpVd09UYzBMekU1TmpZd09TMXNZWEpuWlM1d2JtY3wxYmIyZjgyM2E0YjE3ZTdlZmM3YWEwODhhYzk5YjZhM2JiYThjMzNhZTc4MDZiZjA5ODBiYmJmN2Q3NTA0YTlh",
+      "imageSmall": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8MjczODEyfGltYWdlL3BuZ3xhR0kyTDJoaE5TODVNRGszTWpBM01UVXlOamN3THpFNU5qWXdPUzFzWVhKblpTNXdibWN8NzA2NTc0NzJiMWNkMmMwOWEzYWU1Nzc3NWQ3MjQ3MzYyZjY3NmYwNTdmNzM2Y2Y2ZmY0OWVmZDQzMmE4OTcwYg",
+      "imageMedium": "/medias/196609-large.png?context=bWFzdGVyfHJvb3R8NTczMDR8aW1hZ2UvcG5nfGFEQmtMMmhoTmk4NU1EazNNakEzTVRnMU5ETTRMekU1TmpZd09TMXNZWEpuWlM1d2JtY3w5YmU5ZGY5YTBlNjkwNzk4OTNmMzIwOTZmYTUyYWVlMmM5MWY3MDhiOGMxNTg4NWM0ODBkMGZkOGZmMWFiOTZk",
+      "summary": "iPhone 14 Blue 128GB",
+      "description": "iPhone 14 Blue 128GB",
+      "brandName": "Apple",
+      "currency": "EUR",
+      "inStockFlag": false,
+      "colorName": null,
+      "colorCode": [
+        "#2C75FF"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "9 Gb",
+      "variants": [
         {
-            "code": "camera",
-            "name": "Résolution appareil photo principal",
-            "priority": 100,
-            "category": false,
-            "multiSelect": true,
-            "visible": true,
-            "topValues": null,
-            "values": [
-                {
-                    "code": "200+8+2MP",
-                    "name": "200+8+2MP",
-                    "count": 3,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "200+8+2MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "12MP",
-                    "name": "12MP",
-                    "count": 2,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "12MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50 + 12 + 5MP",
-                    "name": "50 + 12 + 5MP",
-                    "count": 2,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50 + 12 + 5MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "12+12MP",
-                    "name": "12+12MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "12+12MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "48+12MP",
-                    "name": "48+12MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "48+12MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50 + 5 + 2 MP",
-                    "name": "50 + 5 + 2 MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50 + 5 + 2 MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50 + 8 + 5 MP",
-                    "name": "50 + 8 + 5 MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50 + 8 + 5 MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50+10+12MP",
-                    "name": "50+10+12MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50+10+12MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50+12+10MP",
-                    "name": "50+12+10MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50+12+10MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "50+5+2MP",
-                    "name": "50+5+2MP",
-                    "count": 1,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "camera",
-                                "value": "50+5+2MP"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                }
-            ]
-        },
-        {
-            "code": "storage",
-            "name": "Mémoire (Go)",
-            "priority": 100,
-            "category": false,
-            "multiSelect": true,
-            "visible": true,
-            "topValues": null,
-            "values": [
-                {
-                    "code": "128 Go",
-                    "name": "128 Go",
-                    "count": 10,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "storage",
-                                "value": "128 Go"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "256 Go",
-                    "name": "256 Go",
-                    "count": 2,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "storage",
-                                "value": "256 Go"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "512 Go",
-                    "name": "512 Go",
-                    "count": 2,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "storage",
-                                "value": "512 Go"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                }
-            ]
-        },
-        {
-            "code": "brand",
-            "name": "Marque",
-            "priority": 100,
-            "category": false,
-            "multiSelect": true,
-            "visible": true,
-            "topValues": null,
-            "values": [
-                {
-                    "code": "Samsung",
-                    "name": "Samsung",
-                    "count": 7,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "brand",
-                                "value": "Samsung"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "Apple",
-                    "name": "Apple",
-                    "count": 4,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "brand",
-                                "value": "Apple"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                },
-                {
-                    "code": "Xiaomi",
-                    "name": "Xiaomi",
-                    "count": 3,
-                    "query": {
-                        "freeTextSearch": "",
-                        "categoryCode": null,
-                        "filterTerms": [
-                            {
-                                "key": "brand",
-                                "value": "Xiaomi"
-                            }
-                        ],
-                        "filterQueries": null,
-                        "sort": "starCarrousel",
-                        "searchQueryContext": null,
-                        "index": null
-                    },
-                    "selected": false
-                }
-            ]
+          "code": "7382",
+          "baseProductCode": "apple_iphone_14_128gb",
+          "name": "iPhone 14 (128GB)",
+          "imageLarge": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8ODk3MHxpbWFnZS9wbmd8YUdaa0wyZzVOeTg1TURrM01qRXlNalkwTkRjNEx6RTVPVEU1T0Mxc1lYSm5aUzV3Ym1jfDY5YWRjYjljOTBhZmIyNjk1N2VlMzY3NmMxNGYzY2I0YWYyOTM5ZjNmZGYwYWUwZDNkZWViNzU4MDlmY2M0Nzk",
+          "imageSmall": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8MjIyMjE1fGltYWdlL3BuZ3xhRFkxTDJnNVlpODVNRGszTWpFeU1UWTJNVGMwTHpFNU9URTVPQzFzWVhKblpTNXdibWN8NzQ2NjM0YTRlYmI0MjU2MjljNjdhMzYwOTExZmQ1ZTE5NjdlMDhlOWNjNjZhMjcwYjE1YTUwNTA3YmNiMjE0Nw",
+          "imageMedium": "/medias/199198-large.png?context=bWFzdGVyfHJvb3R8NDc2MzN8aW1hZ2UvcG5nfGFEQm1MMmc1WWk4NU1EazNNakV5TVRrNE9UUXlMekU1T1RFNU9DMXNZWEpuWlM1d2JtY3xkZWM1ZWU4OTcyMzRlODlhNTllYzg2NDZlOWY2ZTRhMmI2ZTU4OWJkZGEwMTMxYmZlZDlhNmY2NDIxZWUzNWYy",
+          "summary": "iPhone 14 Black 128GB",
+          "description": "iPhone 14 Black 128GB",
+          "brandName": "Apple",
+          "currency": "EUR",
+          "inStockFlag": true,
+          "colorName": null,
+          "colorCode": [
+            "#000000"
+          ],
+          "storage": [
+            "128 Go"
+          ],
+          "dataOption": "9 Gb",
+          "variants": null,
+          "basePrice": 689,
+          "priceAlteration": 79,
+          "optionPrice": 24,
+          "planPrice": 18,
+          "stockLevelId": "VOO-IPH14-128GB-BLK",
+          "topSellingSmartphone": [
+            false
+          ]
         }
-    ],
-    "paginationData": {
-        "pageSize": 30,
-        "currentPage": 0,
-        "sort": "starCarrousel",
-        "numberOfPages": 1,
-        "totalNumberOfResults": 12
+      ],
+      "basePrice": 689,
+      "priceAlteration": 79,
+      "optionPrice": 24,
+      "planPrice": 18,
+      "stockLevelId": "VOO-IPH14-128GB-BLU",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7378",
+      "baseProductCode": "samsung_galaxy_a16_128gb",
+      "name": "Galaxy A16 (128GB)",
+      "imageLarge": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8MTA0MDl8aW1hZ2UvcG5nfGFEUmtMMmhoT1M4NU1EazNNakF5TnpZeE56VTRMekl3TkRVNE1DMXNZWEpuWlM1d2JtY3xmZjExZDI2YTY4MmVkZTMwNjYwZGUzNWQ3MDJkMTgwMzViZDBmOWNjNTYwMjZjNjkyMzNmYjlmMGE4YTUwZjFj",
+      "imageSmall": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8MjIyNTgzfGltYWdlL3BuZ3xhR1EwTDJoaE1pODVNRGszTWpBeU5UazNPVEU0THpJd05EVTRNQzFzWVhKblpTNXdibWN8Nzg4M2MxOTc0ZGU0ZjA2OTUxOGEzYTk0YTQ1ODJmZWJlYzUxMjZhNjM1ODUwODcxYmFlN2UzNjI1ZTk4YTk4MA",
+      "imageMedium": "/medias/204580-large.png?context=bWFzdGVyfHJvb3R8NTIzOTh8aW1hZ2UvcG5nfGFHVTFMMmhoTlM4NU1EazNNakF5TmpZek5EVTBMekl3TkRVNE1DMXNZWEpuWlM1d2JtY3xmYTZiNGJhODc2ODQzY2NlOWNhMGNmNmI2NjBkNGNlOTdlMjE2NDBlMTY5YzMxZDQxYWRmNTNiNDMzYzZjNzdi",
+      "summary": "Galaxy A16 Black 128GB",
+      "description": "Galaxy A16 Black 128GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "1 Gb",
+      "variants": [],
+      "basePrice": 199,
+      "priceAlteration": 89,
+      "optionPrice": 6,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-A16-4G-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7374",
+      "baseProductCode": "samsung_galaxy_s24_128gb",
+      "name": "Galaxy S24 (128 GB)",
+      "imageLarge": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8MTg2OTl8aW1hZ2UvcG5nfGFEWXdMMmcwWXk4NU1EazNNakU1TWpRME1EWXlMekU1TmpNNU5pMXNZWEpuWlM1d2JtY3xhOTA5NGYyMjhlZTA5ZjMxY2NmOGQ0MzcxOGQ4ZDM3NTlkM2E0ZWYzMTg4YzU2MzNhODU0MDI4MTA0NTg2N2M5",
+      "imageSmall": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8NzQ5ODQ5fGltYWdlL3BuZ3xhR1k0TDJnME9DODVNRGszTWpFNU1UUTFOelU0THpFNU5qTTVOaTFzWVhKblpTNXdibWN8OTBkZjY4MWYwY2JkZjk1NzUzZjUzYzQyZDI5MWNmOWI3OTMzNzI5MzhhYzIxMTQyNGU1ZDIyODFmM2JkNzg0OQ",
+      "imageMedium": "/medias/196396-large.png?context=bWFzdGVyfHJvb3R8MTI5MTY4fGltYWdlL3BuZ3xhRFJtTDJnME9TODVNRGszTWpFNU1UYzROVEkyTHpFNU5qTTVOaTFzWVhKblpTNXdibWN8MzkyMTIxZjg0NWJkZmYwZDkwYWQxN2QxOGUwMWE5ZjYzOWQ1NDI0NTYxZDA4OGVjZTBmYmEyZDliNTBmOWUwYg",
+      "summary": "Galaxy S24 Black 128 GB",
+      "description": "Galaxy S24 Black 128 GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#000000"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "20 Gb",
+      "variants": [],
+      "basePrice": 899,
+      "priceAlteration": 9,
+      "optionPrice": 38,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-S24-BLK",
+      "topSellingSmartphone": [
+        false
+      ]
+    },
+    {
+      "code": "7376",
+      "baseProductCode": "samsung_galaxy_a55_128gb",
+      "name": "Galaxy A55 (128 GB)",
+      "imageLarge": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8OTY4MnxpbWFnZS9wbmd8YURSakwyZ3paaTg1TURrM01qQXhOelExT1RVd0x6RTVOemN6TUMxc1lYSm5aUzV3Ym1jfDUzOWE2YTFlZjJkOWNmN2Q2ZWM4ODgwOTAyYjk3NGIzY2E3YzdjYjM3MGZjNWE1YTY4YmNkZmQ2ODg5ZTMxZDA",
+      "imageSmall": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8MzEwODkwfGltYWdlL3BuZ3xhR1UwTDJnellpODVNRGszTWpBeE5qUTNOalEyTHpFNU56Y3pNQzFzWVhKblpTNXdibWN8OWExMmYxMjdmODkzZDQxOGNlN2UwMjYzZGVkZDFjYWQ3ZTZiYmE5ZjRlYTg4ZmY2M2UxNjE2YWE2ZGM0MWY4Yw",
+      "imageMedium": "/medias/197730-large.png?context=bWFzdGVyfHJvb3R8NTU5MDh8aW1hZ2UvcG5nfGFEUmxMMmd6WXk4NU1EazNNakF4Tmpnd05ERTBMekU1Tnpjek1DMXNZWEpuWlM1d2JtY3w5YzllOTk4YWU5YTg2NjVmYTNhMTY0NGI0YjAxYTBiZmFjOGE5YjBmZGE3Y2NjMmRmNDYxMjJjYmFhMmU2MWE2",
+      "summary": "Galaxy A55 Blue 128 GB",
+      "description": "Galaxy A55 Blue 128 GB",
+      "brandName": "Samsung",
+      "currency": "EUR",
+      "inStockFlag": true,
+      "colorName": null,
+      "colorCode": [
+        "#2C75FF"
+      ],
+      "storage": [
+        "128 Go"
+      ],
+      "dataOption": "0 Gb",
+      "variants": [],
+      "basePrice": 399,
+      "priceAlteration": 299,
+      "optionPrice": 0,
+      "planPrice": 18,
+      "stockLevelId": "VOO-SAM-A55-BLU",
+      "topSellingSmartphone": [
+        false
+      ]
     }
+  ],
+  "facets": [
+    {
+      "code": "camera",
+      "name": "Résolution appareil photo principal",
+      "priority": 100,
+      "category": false,
+      "multiSelect": true,
+      "visible": true,
+      "topValues": null,
+      "values": [
+        {
+          "code": "200+8+2MP",
+          "name": "200+8+2MP",
+          "count": 3,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "200+8+2MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "12MP",
+          "name": "12MP",
+          "count": 2,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "12MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50 + 12 + 5MP",
+          "name": "50 + 12 + 5MP",
+          "count": 2,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50 + 12 + 5MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "12+12MP",
+          "name": "12+12MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "12+12MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "48+12MP",
+          "name": "48+12MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "48+12MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50 + 5 + 2 MP",
+          "name": "50 + 5 + 2 MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50 + 5 + 2 MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50 + 8 + 5 MP",
+          "name": "50 + 8 + 5 MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50 + 8 + 5 MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50+10+12MP",
+          "name": "50+10+12MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50+10+12MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50+12+10MP",
+          "name": "50+12+10MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50+12+10MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "50+5+2MP",
+          "name": "50+5+2MP",
+          "count": 1,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "camera",
+                "value": "50+5+2MP"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "code": "storage",
+      "name": "Mémoire (Go)",
+      "priority": 100,
+      "category": false,
+      "multiSelect": true,
+      "visible": true,
+      "topValues": null,
+      "values": [
+        {
+          "code": "128 Go",
+          "name": "128 Go",
+          "count": 10,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "storage",
+                "value": "128 Go"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "256 Go",
+          "name": "256 Go",
+          "count": 2,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "storage",
+                "value": "256 Go"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "512 Go",
+          "name": "512 Go",
+          "count": 2,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "storage",
+                "value": "512 Go"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        }
+      ]
+    },
+    {
+      "code": "brand",
+      "name": "Marque",
+      "priority": 100,
+      "category": false,
+      "multiSelect": true,
+      "visible": true,
+      "topValues": null,
+      "values": [
+        {
+          "code": "Samsung",
+          "name": "Samsung",
+          "count": 7,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "brand",
+                "value": "Samsung"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "Apple",
+          "name": "Apple",
+          "count": 4,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "brand",
+                "value": "Apple"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        },
+        {
+          "code": "Xiaomi",
+          "name": "Xiaomi",
+          "count": 3,
+          "query": {
+            "freeTextSearch": "",
+            "categoryCode": null,
+            "filterTerms": [
+              {
+                "key": "brand",
+                "value": "Xiaomi"
+              }
+            ],
+            "filterQueries": null,
+            "sort": "starCarrousel",
+            "searchQueryContext": null,
+            "index": null
+          },
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "paginationData": {
+    "pageSize": 30,
+    "currentPage": 0,
+    "sort": "starCarrousel",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 12
+  }
 }

@@ -5,7 +5,7 @@ import type { PriceAlert, PriceAlertData, PriceAlertPreferences, Provider } from
 import { sendWelcomeAlertEmail } from './emailSender';
 import { getPlanById } from './dataLoader';
 
-const alertsPath = path.join(process.cwd(), 'src/data/price-alerts.json');
+const alertsPath = path.join(__dirname, '../data/price-alerts.json');
 
 export async function getAlerts(): Promise<PriceAlertData> {
   try {
