@@ -23,21 +23,18 @@ const nextConfig = {
     ],
     unoptimized: true
   },
+  output: 'standalone',
   basePath: '',
-  // Ajout de la configuration pour les fichiers statiques
-  async headers() {
-    return [
-      {
-        source: '/images/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ]
-  },
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: '/images/:path*',
+          destination: '/public/images/:path*'
+        }
+      ]
+    }
+  }
 }
 
 module.exports = nextConfig
