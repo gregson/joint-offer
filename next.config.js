@@ -24,16 +24,15 @@ const nextConfig = {
     unoptimized: true
   },
   output: 'standalone',
-  basePath: '',
-  async rewrites() {
-    return {
-      beforeFiles: [
-        {
-          source: '/images/:path*',
-          destination: '/public/images/:path*'
-        }
-      ]
-    }
+  experimental: {
+    outputFileTracingRoot: process.env.NODE_ENV === 'production' ? '/app' : undefined,
+  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack']
+    });
+    return config;
   }
 }
 
